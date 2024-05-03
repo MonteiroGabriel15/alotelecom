@@ -1,25 +1,28 @@
 import React from "react";
-import { HeaderComponent, HomeButtonComponent, IntitucionalButtonComponent, AboutUsButtonComponent, ContactButtonComponent } from "./style";
+import { HeaderComponent, HomeButtonComponent, IntitucionalButtonComponent, AboutUsButtonComponent, ContactButtonComponent,ButtonsContainer } from "./style";
 const Header = () => {
     return(
         <HeaderComponent>
             AloTelecom
-            <HomeButtonComponent>
-                Home
-            </HomeButtonComponent>
+            <ButtonsContainer>
+                <HomeButtonComponent>
+                    Home
+                </HomeButtonComponent>
 
-            <IntitucionalButtonComponent>
-                Institucional
-            </IntitucionalButtonComponent>
+                <IntitucionalButtonComponent>
+                    Institucional
+                </IntitucionalButtonComponent>
 
-            <AboutUsButtonComponent>
-                Sobre Nós
-            </AboutUsButtonComponent>
+                <AboutUsButtonComponent>
+                    Sobre Nós
+                </AboutUsButtonComponent>
 
-            <ContactButtonComponent>
-                Contato
-            </ContactButtonComponent>
+                <ContactButtonComponent>
+                    Contato
+                </ContactButtonComponent>
+            </ButtonsContainer>
         </HeaderComponent>
+
 
     )
 };
