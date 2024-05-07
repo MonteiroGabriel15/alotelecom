@@ -4,11 +4,12 @@ import styled from "styled-components";
 export const HeaderComponent = styled.header`
 display: flex;
 flex-direction: row;
-justify-content: space-evenly;
+justify-content: space-around;
 align-items:center;
 width: 100%;
-height: 6rem;
+height: 5.625rem;
 background-color: #FFFFFFFF;
+z-index:10;
 `
 
 
@@ -20,7 +21,7 @@ color: #7D0100;
 border: none;
 border-bottom: #7D0100 solid;
 &:hover{
-    border-bottom: #7D0100 5px solid;
+    border-bottom: #7D0100 0.3125rem solid;
 }
 font-size: large
 `
@@ -33,7 +34,7 @@ color: #7D0100;
 border: none;
 border-bottom: #7D0100 solid;
 &:hover{
-    border-bottom: #7D0100 5px solid;
+    border-bottom: #7D0100 0.3125rem solid;
 }
 font-size: large
 `
@@ -46,7 +47,7 @@ color: #7D0100;
 border: none;
 border-bottom: #7D0100 solid;
 &:hover{
-    border-bottom: #7D0100 5px solid;
+    border-bottom: #7D0100 0.3125rem solid;
 }
 font-size: large
 `
@@ -59,7 +60,7 @@ color: #7D0100;
 border: none;
 border-bottom: #7D0100 solid;
 &:hover{
-    border-bottom: #7D0100 5px solid;
+    border-bottom: #7D0100 0.3125rem solid;
 }
 font-size: large
 `
@@ -72,17 +73,17 @@ justify-content: space-evenly;
 width: 40rem;
 height: 100%;
 background-color: #FFFFFF;
-padding: 2rem 1em;
+padding-bottom: 0.75rem;
 `
 
 export const LogoContainer = styled.div`
 width: 12.5rem;
-height:6rem;
+height: 9vh;
 `
 
 export const LogoImage = styled.img`
 width: 10rem;
-height:6rem;
+height: 9vh;
 `
 
 
