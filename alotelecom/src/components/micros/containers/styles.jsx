@@ -1,12 +1,10 @@
 import styled from "styled-components"
+import coinorginal from "../../../assets/coindimensionada.jpg"
 
 export const ImgContainer = styled.div`
-width: 100%;
-height: 128.5vh;
+width: 2542.4px;
+height: 140.5vh;
+background-image: url(${coinorginal});
+top: -800px;
 `
-export const BigImage = styled.img`
-width: 100%;
-height: 128.5vh;
-position: relative;
-top: -21.875rem;
-`
+

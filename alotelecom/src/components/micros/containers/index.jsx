@@ -1,10 +1,8 @@
 import React from "react";
-import { ImgContainer, BigImage } from "./styles";
-import coinoriginal from '../../../assets/coinoriginal.jpg';
+import { ImgContainer,TextImageContainer } from "./styles";
 export const WelcomeContainer = () => {
     return(
         <ImgContainer>
-            <BigImage src = {coinoriginal} alt = 'communication'/>
         </ImgContainer>
     )
 }

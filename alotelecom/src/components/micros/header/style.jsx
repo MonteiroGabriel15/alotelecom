@@ -4,17 +4,18 @@ import styled from "styled-components";
 export const HeaderComponent = styled.header`
 display: flex;
 flex-direction: row;
-justify-content: space-around;
+justify-content: space-between;
 align-items:center;
 width: 100%;
-height: 5.625rem;
+height: 90px;
 background-color: #FFFFFFFF;
 z-index:10;
+box-shadow: 0.3125rem 0.3125rem 0.3125rem rgba(0, 0, 0, 0.35);
 `
 
 
 export const HomeButtonComponent = styled.button`
-width: 7rem;
+width: 4.375vw;
 height: 10.4vh;
 background-color: #FFFFFFFF;
 color: #7D0100;
@@ -27,7 +28,7 @@ font-size: large
 `
 
 export const IntitucionalButtonComponent = styled.button`
-width: 7rem;
+width: 4.375vw;
 height: 10.4vh;
 background-color: #FFFFFF;
 color: #7D0100;
@@ -40,7 +41,7 @@ font-size: large
 `
 
 export const AboutUsButtonComponent = styled.button`
-width: 7rem;
+width: 4.375vw;
 height: 10.4vh;;
 background-color: #FFFFFFFF;
 color: #7D0100;
@@ -53,7 +54,7 @@ font-size: large
 `
 
 export const ContactButtonComponent = styled.button`
-width: 7rem;
+width: 4.375vw;
 height: 10.4vh;
 background-color: #FFFFFFFF;
 color: #7D0100;
@@ -70,19 +71,19 @@ display: flex;
 flex-direction: row;
 align-items: center;
 justify-content: space-evenly;
-width: 40rem;
+width: 25vw;
 height: 100%;
 background-color: #FFFFFF;
 padding-bottom: 0.75rem;
 `
 
 export const LogoContainer = styled.div`
-width: 12.5rem;
+width: 7.8125vw;
 height: 9vh;
 `
 
 export const LogoImage = styled.img`
-width: 10rem;
+width: 6.25vw;
 height: 9vh;
 `
 
