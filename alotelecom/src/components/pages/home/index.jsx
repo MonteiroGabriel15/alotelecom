@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../../micros/header";
 import { HomeContainer } from "./styles";
-import { WelcomeContainer } from "../../micros/containers";
+import { WelcomeContainer, HowItWorksContainer } from "../../micros/containers";
 
 const Home = () => {
     return(
@@ -9,6 +9,10 @@ const Home = () => {
         <Header/>
             <WelcomeContainer>
             </WelcomeContainer>
+
+            <HowItWorksContainer>
+                
+            </HowItWorksContainer>
     </HomeContainer>
     )
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import { HeaderComponent, HomeButtonComponent, IntitucionalButtonComponent, AboutUsButtonComponent, ContactButtonComponent,ButtonsContainer, LogoContainer, LogoImage } from "./style";
+import { HeaderComponent, HomeButtonComponent, InstitucionalButtonComponent, AboutUsButtonComponent, ContactButtonComponent,ButtonsContainer, LogoContainer, LogoImage } from "./style";
 import imagem1 from '../../../assets/imagem1.png'
 const Header = () => {
     return(
@@ -9,19 +9,19 @@ const Header = () => {
             </LogoContainer>
             <ButtonsContainer>
                 <HomeButtonComponent>
-                    Home
+                    HOME
                 </HomeButtonComponent>
 
-                <IntitucionalButtonComponent>
-                    Institucional
-                </IntitucionalButtonComponent>
+                <InstitucionalButtonComponent>
+                    COMO FUNCIONA
+                </InstitucionalButtonComponent>
 
                 <AboutUsButtonComponent>
-                    Sobre Nós
+                    SOBRE NÓS
                 </AboutUsButtonComponent>
 
                 <ContactButtonComponent>
-                    Contato
+                    CONTATO
                 </ContactButtonComponent>
             </ButtonsContainer>
         </HeaderComponent>

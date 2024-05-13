@@ -1,9 +1,18 @@
 import React from "react";
-import { ImgContainer,TextContainer } from "./styles";
+import { CardsContainer, ImgContainer,TextContainer } from "./styles";
 export const WelcomeContainer = () => {
     return(
         <ImgContainer>
-            <TextContainer><h1>Seja bem Vindo!</h1> <p>adipisicing elit. Magni earum nemo, odit pariatur temporibus eos, vero, tenetur delectus ut hic ullam dolorem numquam maiores blanditiis expedita re</p> <p>prehenderit corporis unde praesentium</p></TextContainer>
+            <TextContainer><span>Seja bem Vindo!</span> <h3>adipisicing elit. Magni earum nemo, odit pariatur temporibus eos, vero, tenetur delectus ut hic ullam dolorem numquam maiores blanditiis expedita re</h3> <h3>prehenderit corporis unde praesentium </h3> </TextContainer>
         </ImgContainer>
     )
+}
+
+export const HowItWorksContainer = () => {
+    return(
+        <CardsContainer>
+            
+        </CardsContainer>
+    )
+
 }

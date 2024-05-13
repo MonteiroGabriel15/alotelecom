@@ -7,7 +7,7 @@ flex-direction: row;
 justify-content: space-between;
 align-items:center;
 width: 100%;
-height: 90px;
+height: 5.625rem;
 background-color: #FFFFFFFF;
 z-index:10;
 box-shadow: 0.3125rem 0.3125rem 0.3125rem rgba(0, 0, 0, 0.35);
@@ -27,8 +27,8 @@ border-bottom: #7D0100 solid;
 font-size: large
 `
 
-export const IntitucionalButtonComponent = styled.button`
-width: 4.375vw;
+export const InstitucionalButtonComponent = styled.button`
+width: 6.8vw;
 height: 10.4vh;
 background-color: #FFFFFF;
 color: #7D0100;
@@ -41,7 +41,7 @@ font-size: large
 `
 
 export const AboutUsButtonComponent = styled.button`
-width: 4.375vw;
+width: 5vw;
 height: 10.4vh;;
 background-color: #FFFFFFFF;
 color: #7D0100;
