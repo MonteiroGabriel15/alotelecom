@@ -1,5 +1,8 @@
 import React from "react";
-import { CardsContainer, ImgContainer,TextContainer } from "./styles";
+import { CardImage, CardsContainer, HowItWorkCardContainer, HowItWorksCards, HowItWorksTitleContainer, ImgContainer,TextContainer } from "./styles";
+import composition1 from "../../../assets/composition1.jpg";
+
+
 export const WelcomeContainer = () => {
     return(
         <ImgContainer>
@@ -11,7 +14,68 @@ export const WelcomeContainer = () => {
 export const HowItWorksContainer = () => {
     return(
         <CardsContainer>
-            
+            <HowItWorksTitleContainer>
+                <span>
+                    Como Funciona?
+                </span>
+            </HowItWorksTitleContainer>
+
+                <HowItWorkCardContainer>
+                <HowItWorksCards>
+                <CardImage src = {composition1}/>
+                    <h4>
+                        a
+                    </h4> 
+                    
+                    <p>
+                        a
+                    </p>
+                </HowItWorksCards>
+
+                <HowItWorksCards>
+                <CardImage src = {composition1}/>
+                <h4>
+                        a
+                    </h4> 
+                    
+                    <p>
+                        a
+                    </p>
+                </HowItWorksCards>
+
+                <HowItWorksCards>
+                <CardImage src = {composition1}/>
+                <h4>
+                        a
+                    </h4> 
+                    
+                    <p>
+                        a
+                    </p>
+                </HowItWorksCards>
+
+                <HowItWorksCards>
+                <CardImage src = {composition1}/>
+                <h4>
+                        a
+                    </h4> 
+                    
+                    <p>
+                        a
+                    </p>
+                </HowItWorksCards>
+
+                <HowItWorksCards>
+                <CardImage src = {composition1}/>
+                    <h4>
+                        a
+                    </h4> 
+                    
+                    <p>
+                        a
+                    </p>
+                </HowItWorksCards>
+            </HowItWorkCardContainer>
         </CardsContainer>
     )
 

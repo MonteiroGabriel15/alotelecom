@@ -7,7 +7,6 @@ display: flex;
 width:  100%;
 height: 90.5vh;
 background-image: url(${coinorginal});
-margin-bottom: 1rem
 `
 export const TextContainer = styled.div`
 display: flex;
@@ -38,12 +37,48 @@ h3{
 `
 
 export const CardsContainer = styled.div`
+display: flex;
+flex-direction: column;
+align-items: center;
 width: 100%;
 height: 85vh;
-background-color: #00FFFF; 
-`
 
+`
+export const HowItWorkCardContainer = styled.div`
+display: flex;
+justify-content: space-around;
+align-items: center;
+width: 100%;
+height:85vh;
+`
 export const HowItWorksCards = styled.div`
+display:flex;
+flex-direction: column;
+width: 10.6vw;
+height: 55vh;
+border-radius: 1rem;
+background-color: #F7F7F7F7;
+h4{
+    font-weight: bold;
+    font-size: large;
+}
 
+p{
+    font-weight:light;
+    font-size: small;
+}
 `
 
+export const HowItWorksTitleContainer = styled.div`
+display: flex;
+align-items: center;
+height: 5vw;
+span{
+    color: #000000;
+    font-size: xx-large;
+}
+`
+export const CardImage = styled.img`
+width: 100%;
+border-radius: 1rem;
+`
