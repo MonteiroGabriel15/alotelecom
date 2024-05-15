@@ -1,5 +1,5 @@
 import React from "react";
-import { CardImage, CardsContainer, HowItWorkCardContainer, HowItWorksCards, HowItWorksTitleContainer, ImgContainer,TextContainer } from "./styles";
+import { ButtonCard, CardImage, CardsContainer, CardsText, HowItWorkCardContainer, HowItWorksCards, HowItWorksTitleContainer, ImgContainer,TextContainer } from "./styles";
 import composition1 from "../../../assets/composition1.jpg";
 
 
@@ -23,57 +23,72 @@ export const HowItWorksContainer = () => {
                 <HowItWorkCardContainer>
                 <HowItWorksCards>
                 <CardImage src = {composition1}/>
+                <CardsText>
                     <h4>
-                        a
-                    </h4> 
-                    
-                    <p>
-                        a
-                    </p>
+                            Teste
+                        </h4> 
+                        
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium molestias, tempore aspernatur cupiditate eveniet cumque eum voluptatum dicta obcaecati optio laudantium beatae officiis minus quia sequi soluta et, id placeat!
+                        </p>
+                </CardsText>
+                <ButtonCard>TESTANDO</ButtonCard>
                 </HowItWorksCards>
 
                 <HowItWorksCards>
                 <CardImage src = {composition1}/>
-                <h4>
-                        a
-                    </h4> 
-                    
-                    <p>
-                        a
-                    </p>
-                </HowItWorksCards>
-
-                <HowItWorksCards>
-                <CardImage src = {composition1}/>
-                <h4>
-                        a
-                    </h4> 
-                    
-                    <p>
-                        a
-                    </p>
-                </HowItWorksCards>
-
-                <HowItWorksCards>
-                <CardImage src = {composition1}/>
-                <h4>
-                        a
-                    </h4> 
-                    
-                    <p>
-                        a
-                    </p>
-                </HowItWorksCards>
-
-                <HowItWorksCards>
-                <CardImage src = {composition1}/>
+                <CardsText>
                     <h4>
-                        a
+                            TesteTesteTesteTesteTeste
+                        </h4> 
+                        
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo hic, pariatur dicta fuga ad non expedita earum est nesciunt facere quia optio, vero sequi aperiam assumenda numquam accusantium, soluta porro.
+                        </p>
+                </CardsText>
+                <ButtonCard>TESTANDO</ButtonCard>
+                </HowItWorksCards>
+
+                <HowItWorksCards>
+                <CardImage src = {composition1}/>
+                <CardsText>
+                    <h4>
+                    TesteTeste
                     </h4> 
-                    
+                        
                     <p>
-                        a
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, numquam magnam. Cum totam mollitia, nulla maiores quo officiis consequuntur quis animi exercitationem veritatis amet, quas, enim explicabo optio perspiciatis minima.
                     </p>
+                </CardsText>
+                <ButtonCard>TESTANDO</ButtonCard>
+                </HowItWorksCards>
+
+                <HowItWorksCards>
+                <CardImage src = {composition1}/>
+                <CardsText>
+                    <h4>
+                    TesteTesteTesteTeste
+                    </h4> 
+                        
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, ducimus architecto molestias sequi quam, praesentium laboriosam repellat enim unde autem dolorum nisi nemo adipisci iste saepe maxime esse qui. Deleniti?
+                    </p>
+                </CardsText>
+                <ButtonCard>TESTANDO</ButtonCard>
+                </HowItWorksCards>
+
+                <HowItWorksCards>
+                <CardImage src = {composition1}/>
+                <CardsText>
+                    <h4>
+                    TesteTesteTeste
+                        </h4> 
+                        
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit unde nam ratione maxime fugiat sint, illo, quasi error sapiente, a rem? Magni omnis, quae cum ullam aperiam qui sint consequuntur?
+                        </p>
+                </CardsText>
+                <ButtonCard>TESTANDO</ButtonCard>
                 </HowItWorksCards>
             </HowItWorkCardContainer>
         </CardsContainer>

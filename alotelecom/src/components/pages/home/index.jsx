@@ -11,7 +11,6 @@ const Home = () => {
             </WelcomeContainer>
 
             <HowItWorksContainer>
-                
             </HowItWorksContainer>
     </HomeContainer>
     )

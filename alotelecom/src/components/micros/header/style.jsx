@@ -5,86 +5,85 @@ export const HeaderComponent = styled.header`
 display: flex;
 flex-direction: row;
 justify-content: space-between;
-align-items:center;
+align-items: center;
 width: 100%;
-height: 5.625rem;
+height: 10vh;
 background-color: #FFFFFFFF;
 z-index:10;
 box-shadow: 0.3125rem 0.3125rem 0.3125rem rgba(0, 0, 0, 0.35);
+margin-right: 0.5rem;
 `
 
 
 export const HomeButtonComponent = styled.button`
-width: 4.375vw;
-height: 10.4vh;
+width: 20%;
+height: 10vh;
 background-color: #FFFFFFFF;
 color: #7D0100;
 border: none;
-border-bottom: #7D0100 solid;
 &:hover{
-    border-bottom: #7D0100 0.3125rem solid;
+    border-bottom: #7D0100 solid;
 }
-font-size: large
+font-size: 100%;
 `
 
 export const InstitucionalButtonComponent = styled.button`
-width: 6.8vw;
-height: 10.4vh;
+width: 30%;
+height: 10vh;
 background-color: #FFFFFF;
 color: #7D0100;
 border: none;
-border-bottom: #7D0100 solid;
 &:hover{
-    border-bottom: #7D0100 0.3125rem solid;
+    border-bottom: #7D0100 solid;
 }
-font-size: large
+font-size: 100%;
 `
 
 export const AboutUsButtonComponent = styled.button`
-width: 5vw;
-height: 10.4vh;;
+width: 30%;
+height: 10vh;;
 background-color: #FFFFFFFF;
 color: #7D0100;
 border: none;
-border-bottom: #7D0100 solid;
 &:hover{
-    border-bottom: #7D0100 0.3125rem solid;
+    border-bottom: #7D0100 solid;
 }
-font-size: large
+font-size: 100%;
 `
 
 export const ContactButtonComponent = styled.button`
-width: 4.375vw;
-height: 10.4vh;
+width: 30%;
+height: 10vh;
 background-color: #FFFFFFFF;
 color: #7D0100;
 border: none;
-border-bottom: #7D0100 solid;
 &:hover{
-    border-bottom: #7D0100 0.3125rem solid;
+    border-bottom: #7D0100 solid;
 }
-font-size: large
+font-size: 100%;
 `
 
 export const ButtonsContainer = styled.div`
+gap: 2rem;
 display: flex;
 flex-direction: row;
-align-items: center;
-justify-content: space-evenly;
-width: 25vw;
-height: 100%;
+justify-content: space-between;
+align-items: flex-start;
+width: 33vw;
+height: 10vh;
 background-color: #FFFFFF;
 padding-bottom: 0.75rem;
 `
 
 export const LogoContainer = styled.div`
-width: 7.8125vw;
-height: 9vh;
+width: 7.9vw;
+height: 10vh;
+padding: 0.2rem;
 `
 
 export const LogoImage = styled.img`
-width: 6.25vw;
-height: 9vh;
+width: 100%;
+    height:100%;
 `
 
 
