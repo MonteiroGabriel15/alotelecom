@@ -12,6 +12,7 @@ background-color: #FFFFFFFF;
 z-index:10;
 box-shadow: 0.3125rem 0.3125rem 0.3125rem rgba(0, 0, 0, 0.35);
 margin-right: 0.5rem;
+position: fixed;
 `
 
 

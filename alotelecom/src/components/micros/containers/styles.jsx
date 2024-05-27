@@ -97,8 +97,43 @@ export const ButtonCard = styled.button`
 width: 40%;
 height: 20%;
 border: 0;
+margin-bottom:1rem;
 border-radius: 3rem;
 background-color: #7F0000;
 color: #FFF;
 font-size: 95%;
 `
+
+export const VantagensContainer = styled.div`
+width:100%;
+height:30%;
+background-color: #000;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+`
+export const VantagensTitleContainer = styled.div`
+width: 100%;
+display: flex;
+flow-direction: row;
+
+background-color: #F00FFF;
+h1{
+    color: #FFF;
+    font-size: 36px;
+}
+mark{
+    background-color: #7F0000;
+    color: #FFF;
+    font-size: 36px;
+}
+`
+
+export const VantagensPosts = styled.div`
+width: 25%;
+height: 25%;
+background-color: ##FFF00cc8;
+`
+
+
+

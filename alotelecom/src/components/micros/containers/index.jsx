@@ -1,5 +1,5 @@
 import React from "react";
-import { ButtonCard, CardImage, CardsContainer, CardsText, HowItWorkCardContainer, HowItWorksCards, HowItWorksTitleContainer, ImgContainer,TextContainer } from "./styles";
+import { ButtonCard, CardImage, CardsContainer, CardsText, HowItWorkCardContainer, HowItWorksCards, HowItWorksTitleContainer, ImgContainer,TextContainer, VantagensContainer, VantagensTitleContainer } from "./styles";
 import composition1 from "../../../assets/composition1.jpg";
 
 
@@ -93,5 +93,15 @@ export const HowItWorksContainer = () => {
             </HowItWorkCardContainer>
         </CardsContainer>
     )
+}
 
+export const BenefitsContainer = () =>{
+    return(
+       <VantagensContainer>
+        <VantagensTitleContainer>
+            <h1>Vantagens de ser </h1> <mark>AloTelecom</mark>
+        </VantagensTitleContainer>
+       </VantagensContainer>
+    )
+    
 }
