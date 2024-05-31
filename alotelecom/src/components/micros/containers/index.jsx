@@ -1,5 +1,5 @@
 import React from "react";
-import { ButtonCard, CardImage, CardsContainer, CardsText, HowItWorkCardContainer, HowItWorksCards, HowItWorksTitleContainer, ImgContainer,TextContainer, VantagensContainer, VantagensTitleContainer } from "./styles";
+import { ButtonCard, CardImage, CardsContainer, CardsText, HowItWorkCardContainer, HowItWorksCards, HowItWorksTitleContainer, ImgContainer,TextContainer, VantagensContainer, VantagensPost, VantagensPostDown, VantagensPostsUp, VantagensTitleContainer } from "./styles";
 import composition1 from "../../../assets/composition1.jpg";
 
 
@@ -101,6 +101,23 @@ export const BenefitsContainer = () =>{
         <VantagensTitleContainer>
             <h1>Vantagens de ser </h1> <mark>AloTelecom</mark>
         </VantagensTitleContainer>
+        <VantagensPostsUp>
+            <VantagensPost>
+                aaa
+            </VantagensPost>
+            <VantagensPost>
+                aaa
+            </VantagensPost>
+        </VantagensPostsUp>
+
+        <VantagensPostDown>
+            <VantagensPost>
+                aaa
+            </VantagensPost>
+            <VantagensPost>
+                aaa
+            </VantagensPost>
+        </VantagensPostDown>
        </VantagensContainer>
     )
     

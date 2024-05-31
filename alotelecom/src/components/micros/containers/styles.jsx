@@ -110,14 +110,16 @@ height:30%;
 background-color: #000;
 display: flex;
 flex-direction: column;
-justify-content: space-around;
+justify-content: center;
+align-items: center;
+gap: 1rem;
 `
 export const VantagensTitleContainer = styled.div`
 width: 100%;
 display: flex;
-flow-direction: row;
+justify-content: center;
+gap: 1rem;
 
-background-color: #F00FFF;
 h1{
     color: #FFF;
     font-size: 36px;
@@ -129,11 +131,29 @@ mark{
 }
 `
 
-export const VantagensPosts = styled.div`
-width: 25%;
-height: 25%;
-background-color: ##FFF00cc8;
+export const VantagensPostsUp = styled.div`
+display: flex;
+flex-direction: row;
+justify-content: center;
+width: 100%;
+height: 20%;
+gap:1rem;
 `
 
+export const VantagensPost = styled.div`
+width: 20%;
+height:100%;
+background-color: #cf3300;
+border-radius: 0.5rem;
+`
+
+export const VantagensPostDown = styled.div`
+display:flex;
+align-items: center;
+justify-content: center;
+width: 100%;
+height: 20%;
+gap:1rem;
+`
 
 
