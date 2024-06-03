@@ -1,5 +1,5 @@
 import React from "react";
-import { ButtonCard, CardImage, CardsContainer, CardsText, HowItWorkCardContainer, HowItWorksCards, HowItWorksTitleContainer, ImgContainer,TextContainer, VantagensContainer, VantagensPost, VantagensPostDown, VantagensPostsUp, VantagensTitleContainer } from "./styles";
+import { ButtonCard, CardImage, CardsContainer, CardsText, DescriptionContainer, HowItWorkCardContainer, HowItWorksCards, HowItWorksTitleContainer, ImgContainer,TextContainer, VantagensContainer, VantagensPost, VantagensPostDown, VantagensPostsUp, VantagensTitleContainer, WwaContainer } from "./styles";
 import composition1 from "../../../assets/composition1.jpg";
 
 
@@ -16,8 +16,11 @@ export const HowItWorksContainer = () => {
         <CardsContainer>
             <HowItWorksTitleContainer>
                 <span>
-                    Como Funciona?
+                    Como 
                 </span>
+                <h2>
+                    Funciona?
+                </h2>
             </HowItWorksTitleContainer>
 
                 <HowItWorkCardContainer>
@@ -121,4 +124,14 @@ export const BenefitsContainer = () =>{
        </VantagensContainer>
     )
     
+}
+
+export const WhoWeAreContainer = () => {
+    return(
+        <WwaContainer>
+            <DescriptionContainer>
+                aa
+            </DescriptionContainer>
+        </WwaContainer>
+    )
 }

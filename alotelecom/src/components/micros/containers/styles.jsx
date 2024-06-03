@@ -3,8 +3,8 @@ import coinorginal from "../../../assets/coindimensionada.jpg"
 
 export const ImgContainer = styled.div`
 display: flex;
-width:  100%;
-height: 29.5%;
+width:  100vw;
+height: 88vh;
 background-image: url(${coinorginal});
 `
 export const TextContainer = styled.div`
@@ -39,34 +39,43 @@ export const CardsContainer = styled.div`
 display: flex;
 flex-direction: column;
 align-items: center;
-width: 100%;
-height: 75vh;
-background-color: #0FF000
+width: 100vw;
+height: 80vh;
+background-color: #FFF;
 
 `
 export const HowItWorkCardContainer = styled.div`
 display: flex;
 justify-content: space-around;
 align-items: center;
-width: 100%;
-height:85vh;
+width: 100vw;
+height: 85vh;
 `
 export const HowItWorksCards = styled.div`
 display:flex;
 flex-direction: column;
 align-items: center;
-width: 13%;
-height: 55vh;
+width: 14vw;
+height: 60vh;
 border-radius: 1rem;
 background-color: #F7F7F7F7;
 `
 
 export const HowItWorksTitleContainer = styled.div`
+margin-top: 3rem;
 display: flex;
 align-items: center;
 height: 5vw;
+gap: 0.5rem;
 span{
-    color: #FF000FFF;
+    color: #000;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+h2{
+    color: #7F0000;
+    font-weight: bold;
     font-size: xx-large;
 }
 `
@@ -105,8 +114,8 @@ font-size: 95%;
 `
 
 export const VantagensContainer = styled.div`
-width:100%;
-height:30%;
+width:100vw;
+height:85vh;
 background-color: #000;
 display: flex;
 flex-direction: column;
@@ -136,12 +145,12 @@ display: flex;
 flex-direction: row;
 justify-content: center;
 width: 100%;
-height: 20%;
+height: 25%;
 gap:1rem;
 `
 
 export const VantagensPost = styled.div`
-width: 20%;
+width: 30%;
 height:100%;
 background-color: #cf3300;
 border-radius: 0.5rem;
@@ -152,8 +161,23 @@ display:flex;
 align-items: center;
 justify-content: center;
 width: 100%;
-height: 20%;
+height: 25%;
 gap:1rem;
 `
+export const WwaContainer = styled.div`
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #cfdd66;
+width:100vw;
+height:70vh;
+`
 
+export const DescriptionContainer = styled.div`
+display: flex;
+background-color: #F7F7F7;
+width: 52vw;
+height: 40vh;
+border-radius:1rem;
+` 
 
