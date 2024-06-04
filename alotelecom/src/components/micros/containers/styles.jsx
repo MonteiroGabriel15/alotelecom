@@ -3,7 +3,7 @@ import coinorginal from "../../../assets/coindimensionada.jpg"
 
 export const ImgContainer = styled.div`
 display: flex;
-width:  100vw;
+width:  100%;
 height: 88vh;
 background-image: url(${coinorginal});
 `
@@ -39,8 +39,8 @@ export const CardsContainer = styled.div`
 display: flex;
 flex-direction: column;
 align-items: center;
-width: 100vw;
-height: 80vh;
+width: 100%;
+height: 100vh;
 background-color: #FFF;
 
 `
@@ -48,7 +48,7 @@ export const HowItWorkCardContainer = styled.div`
 display: flex;
 justify-content: space-around;
 align-items: center;
-width: 100vw;
+width: 100%;
 height: 85vh;
 `
 export const HowItWorksCards = styled.div`
@@ -104,18 +104,23 @@ p{
 `
 export const ButtonCard = styled.button`
 width: 40%;
-height: 20%;
+height: 15%;
 border: 0;
 margin-bottom:1rem;
 border-radius: 3rem;
 background-color: #7F0000;
 color: #FFF;
 font-size: 95%;
+&:hover{
+    background-color: #fff;
+    color: #7f0000;
+}
+
 `
 
 export const VantagensContainer = styled.div`
-width:100vw;
-height:85vh;
+width:100%;
+height:100vh;
 background-color: #000;
 display: flex;
 flex-direction: column;
@@ -128,7 +133,6 @@ width: 100%;
 display: flex;
 justify-content: center;
 gap: 1rem;
-
 h1{
     color: #FFF;
     font-size: 36px;
@@ -136,7 +140,7 @@ h1{
 mark{
     background-color: #7F0000;
     color: #FFF;
-    font-size: 36px;
+    font-size: 36px
 }
 `
 
@@ -152,7 +156,7 @@ gap:1rem;
 export const VantagensPost = styled.div`
 width: 30%;
 height:100%;
-background-color: #cf3300;
+background-color: #F7F7F7;
 border-radius: 0.5rem;
 `
 
@@ -168,16 +172,113 @@ export const WwaContainer = styled.div`
 display: flex;
 justify-content: center;
 align-items: center;
-background-color: #cfdd66;
-width:100vw;
-height:70vh;
+background-color: #FFF;
+width:100%;
+height:75vh;
 `
 
 export const DescriptionContainer = styled.div`
 display: flex;
+flex-direction: row;
+justify-content: center;
 background-color: #F7F7F7;
-width: 52vw;
-height: 40vh;
+width: 53%;
+height: 56%;
 border-radius:1rem;
+gap: 1rem;
 ` 
+export const DescriptionImage = styled.img`
+width:47%;
+`
 
+export const DescriptionTextContainer = styled.div`
+display:flex;
+flex-direction: column;
+justify-content: space-around;
+width: 53%;
+height:97%
+h3{
+    font-weight: light;
+    color: ##666666;
+}
+
+h1{
+    color: #212529;
+}
+
+p{
+    color: ##666666;
+}
+`
+export const ContactContainer = styled.div`
+display: flex;
+justify-content:center;
+align-items: center;
+flex-direction: column;
+width:100%;
+height:90vh;
+`
+export const ContactText = styled.div`
+display:flex;
+justify-content: center;
+width: 100%;
+gap: 1rem;
+
+h1{
+    font-size:36px;
+}
+
+p{
+    font-size: 36px;
+    color: #7f0000;
+}
+`
+
+export const Subtitle = styled.div`
+display:flex;
+justify-content: center;
+width: 100%;
+p{
+    font-size: 15px;
+    color: #6666;
+}
+`
+export const Forms = styled.div`
+display: flex;
+justify-content: center;;
+align-items: center;
+width: 60%;
+height: 65%;
+background-color: #CC3D3D;
+border-radius: 0.4rem;
+padding: 5rem;
+flex-wrap:wrap;
+gap: 0.29rem;
+`
+
+export const InputForm = styled.input`
+width: 33%;
+height: 13%;
+padding: 5px;
+background-color: #fff;
+border: 0;
+border-radius: 3rem;
+`
+
+export const ButtonForm = styled.button`
+background-color: #cC3D3D;
+width: 10%;
+height: 15%;
+border-radius: 3rem;
+border-color:  #fff; 
+color: #fff;
+font-weight: bold;
+`
+export const InputMessage = styled.input`
+background-color: #ffCC3D3Df; 
+width: 100%;
+height: 60%;
+border: 0;
+border-radius: 1rem;
+padding: 1rem;
+`

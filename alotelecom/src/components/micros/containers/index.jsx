@@ -1,6 +1,7 @@
 import React from "react";
-import { ButtonCard, CardImage, CardsContainer, CardsText, DescriptionContainer, HowItWorkCardContainer, HowItWorksCards, HowItWorksTitleContainer, ImgContainer,TextContainer, VantagensContainer, VantagensPost, VantagensPostDown, VantagensPostsUp, VantagensTitleContainer, WwaContainer } from "./styles";
+import { ButtonCard, ButtonForm, CardImage, CardsContainer, CardsText, ContactContainer, ContactText, DescriptionContainer, DescriptionImage, DescriptionTextContainer, Forms, HowItWorkCardContainer, HowItWorksCards, HowItWorksTitleContainer, ImgContainer,InputForm,InputMessage,Subtitle,TextContainer, VantagensContainer, VantagensPost, VantagensPostDown, VantagensPostsUp, VantagensTitleContainer, WwaContainer } from "./styles";
 import composition1 from "../../../assets/composition1.jpg";
+import meeting from "../../../assets/meeting1.jpeg"
 
 
 export const WelcomeContainer = () => {
@@ -106,19 +107,19 @@ export const BenefitsContainer = () =>{
         </VantagensTitleContainer>
         <VantagensPostsUp>
             <VantagensPost>
-                aaa
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum necessitatibus ducimus sunt consequatur possimus officia doloribus, quibusdam commodi sint debitis amet tenetur quam illum ipsam quod, laboriosam temporibus animi inventore.
             </VantagensPost>
             <VantagensPost>
-                aaa
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, facilis deserunt similique, ab reiciendis impedit dolor adipisci aut voluptate minima repellat harum. Id debitis est necessitatibus fugiat doloribus aspernatur eaque.
             </VantagensPost>
         </VantagensPostsUp>
 
         <VantagensPostDown>
             <VantagensPost>
-                aaa
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae sint, quia illo quod optio tenetur, amet illum delectus alias voluptates architecto necessitatibus atque pariatur dolor, cum recusandae in excepturi. Sed!
             </VantagensPost>
             <VantagensPost>
-                aaa
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita, incidunt vitae? Nobis porro temporibus voluptas iusto, quibusdam dolor, autem, tempora consectetur reiciendis itaque ducimus quis nostrum quae nemo aut eos?
             </VantagensPost>
         </VantagensPostDown>
        </VantagensContainer>
@@ -130,8 +131,35 @@ export const WhoWeAreContainer = () => {
     return(
         <WwaContainer>
             <DescriptionContainer>
-                aa
+                <DescriptionImage src = {meeting} />
+                <DescriptionTextContainer>
+                <h3>Quem somos?</h3>
+                <h1>Alo Telecom</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed commodi est fugit! Voluptates adipisci impedit, ipsum, veniam error ullam explicabo cum soluta incidunt aliquid officiis tempora iusto quos voluptas eveniet.</p>
+                <ButtonCard>Testando</ButtonCard>
+                </DescriptionTextContainer>
             </DescriptionContainer>
         </WwaContainer>
+    )
+}
+
+export const ContactUsContainer = () => {
+    return(
+        <ContactContainer>
+            <ContactText>
+                <h1>Envie-nos uma</h1> 
+                <p>mensagem</p> 
+            </ContactText>
+            <Subtitle>
+                Tem alguma dúvida ou sugestão? Escreva abaixo, assim que possível retornaremos!
+            </Subtitle>
+            <Forms>
+                <InputForm type = "text" placeholder = "Nome"/>
+                <InputForm type = "email" placeholder = "Email"/>
+                <InputForm type = "text" placeholder = "Assunto"/>
+                <InputMessage type = "text" placeholder="Escreva sua mensagem"/>
+                <ButtonForm>ENVIAR</ButtonForm>
+            </Forms>
+        </ContactContainer>
     )
 }

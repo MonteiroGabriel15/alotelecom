@@ -6,7 +6,7 @@ display: flex;
 flex-direction: row;
 justify-content: space-between;
 align-items: center;
-width: 100%;
+width: 100vw;
 height: 10vh;
 background-color: #FFFFFFFF;
 z-index:10;
@@ -84,7 +84,7 @@ padding: 0.2rem;
 
 export const LogoImage = styled.img`
 width: 100%;
-    height:100%;
+height:100%;
 `
 
 
