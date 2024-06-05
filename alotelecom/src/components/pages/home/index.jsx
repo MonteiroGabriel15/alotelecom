@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../../micros/header";
 import { HomeContainer } from "./styles";
 import { WelcomeContainer, HowItWorksContainer, BenefitsContainer, WhoWeAreContainer, ContactUsContainer } from "../../micros/containers";
+import { Footer } from "../../micros/footer";
 
 const Home = () => {
     return(
@@ -21,7 +22,7 @@ const Home = () => {
 
             <ContactUsContainer>
             </ContactUsContainer>
-
+        <Footer/>
     </HomeContainer>
     )
 }

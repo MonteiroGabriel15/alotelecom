@@ -4,7 +4,7 @@ import coinorginal from "../../../assets/coindimensionada.jpg"
 export const ImgContainer = styled.div`
 display: flex;
 width:  100%;
-height: 88vh;
+height: 97vh;
 background-image: url(${coinorginal});
 `
 export const TextContainer = styled.div`
@@ -49,7 +49,7 @@ display: flex;
 justify-content: space-around;
 align-items: center;
 width: 100%;
-height: 85vh;
+height: 100vh;
 `
 export const HowItWorksCards = styled.div`
 display:flex;
@@ -111,6 +111,8 @@ border-radius: 3rem;
 background-color: #7F0000;
 color: #FFF;
 font-size: 95%;
+cursor:pointer;
+font-weight: bold;
 &:hover{
     background-color: #fff;
     color: #7f0000;
@@ -126,7 +128,7 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-gap: 1rem;
+gap: 3rem;
 `
 export const VantagensTitleContainer = styled.div`
 width: 100%;
@@ -150,7 +152,7 @@ flex-direction: row;
 justify-content: center;
 width: 100%;
 height: 25%;
-gap:1rem;
+gap:2rem;
 `
 
 export const VantagensPost = styled.div`
@@ -158,6 +160,7 @@ width: 30%;
 height:100%;
 background-color: #F7F7F7;
 border-radius: 0.5rem;
+font-size: 20px;
 `
 
 export const VantagensPostDown = styled.div`
@@ -166,7 +169,7 @@ align-items: center;
 justify-content: center;
 width: 100%;
 height: 25%;
-gap:1rem;
+gap:2rem;
 `
 export const WwaContainer = styled.div`
 display: flex;
@@ -174,7 +177,7 @@ justify-content: center;
 align-items: center;
 background-color: #FFF;
 width:100%;
-height:75vh;
+height:80vh;
 `
 
 export const DescriptionContainer = styled.div`
@@ -185,7 +188,17 @@ background-color: #F7F7F7;
 width: 53%;
 height: 56%;
 border-radius:1rem;
-gap: 1rem;
+gap: 1.5rem;
+
+h3{
+    font-size: 15px;
+}
+h1{
+    font-size: 36px;
+}
+p{
+    font-size:14px;
+}
 ` 
 export const DescriptionImage = styled.img`
 width:47%;
@@ -267,14 +280,20 @@ border-radius: 3rem;
 
 export const ButtonForm = styled.button`
 background-color: #cC3D3D;
-width: 10%;
-height: 15%;
+width: 12%;
+height: 12%;
 border-radius: 3rem;
-border-color:  #fff; 
+border-color:  #ffffff; 
 color: #fff;
 font-weight: bold;
+cursor: pointer;
+&:hover{
+    background-color: #fff;
+    color: #cc3d3d;
+}
 `
 export const InputMessage = styled.input`
+display: flex; 
 background-color: #ffCC3D3Df; 
 width: 100%;
 height: 60%;
