@@ -33,5 +33,17 @@ h3{
 p{
     color:#fff;
 }
+`
 
+export const ContactContainer = styled.div`
+display: flex;
+flex-direction: column;
+width: 30%;
+height:100%;
+h3{
+    color: #fff;
+}
+p{
+    color:#fff;
+}
 `
