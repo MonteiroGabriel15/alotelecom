@@ -89,17 +89,19 @@ border-radius: 1rem;
 flex-direction: column;
 align-items: center;
 gap: 1.5rem;
+padding: 2rem;
 height:100%;
 width:100%;
 background-color: #F7F7F7F7;
 h4{
     font-weight: bold;
-    font-size: large;
+    font-size: 20px;
 }
 
 p{
     font-weight:light;
-    font-size: small;
+    font-size: 14px;
+    color: #666666;
 }
 `
 export const ButtonCard = styled.button`
@@ -141,6 +143,7 @@ h1{
 }
 mark{
     background-color: #7F0000;
+    text-shadow: black 0.1em 0.1em 0.2em;
     color: #FFF;
     font-size: 36px
 }
@@ -161,6 +164,7 @@ height:100%;
 background-color: #F7F7F7;
 border-radius: 0.5rem;
 font-size: 20px;
+padding: 1.3rem;
 `
 
 export const VantagensPostDown = styled.div`
@@ -236,6 +240,7 @@ display:flex;
 justify-content: center;
 width: 100%;
 gap: 1rem;
+margin-bottom: 0.5rem;
 
 h1{
     font-size:36px;
@@ -251,6 +256,7 @@ export const Subtitle = styled.div`
 display:flex;
 justify-content: center;
 width: 100%;
+margin-bottom: 4rem;
 p{
     font-size: 15px;
     color: #6666;
