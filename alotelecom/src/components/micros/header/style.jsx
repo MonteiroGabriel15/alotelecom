@@ -1,5 +1,10 @@
 import styled from "styled-components";
 
+const breakpoints = {
+    mobile: '320px',
+    tablet: '768px',
+    desktop: '1024px',
+};
 
 export const HeaderComponent = styled.header`
 display: flex;
@@ -13,6 +18,14 @@ z-index:10;
 box-shadow: 0.3125rem 0.3125rem 0.3125rem rgba(0, 0, 0, 0.35);
 margin-right: 0.5rem;
 position: fixed;
+
+    @media screen and (max-width: ${breakpoints.tablet}) {
+        width: 50%;
+    }
+
+    @media screen and (max-width: ${breakpoints.mobile}) {
+        width: 100%;
+    };
 `
 
 
@@ -26,6 +39,14 @@ border: none;
     border-bottom: #7D0100 solid;
 }
 font-size: 100%;
+
+    @media screen and (max-width: ${breakpoints.tablet}) {
+        width: 50%;
+    }
+
+    @media screen and (max-width: ${breakpoints.mobile}) {
+        width: 15%;
+    }
 `
 
 export const InstitucionalButtonComponent = styled.button`
@@ -38,6 +59,13 @@ border: none;
     border-bottom: #7D0100 solid;
 }
 font-size: 100%;
+    @media screen and (max-width: ${breakpoints.tablet}) {
+        width: 50%;
+    }
+
+    @media screen and (max-width: ${breakpoints.mobile}) {
+        width: 30%;
+    };
 `
 
 export const AboutUsButtonComponent = styled.button`
@@ -50,6 +78,14 @@ border: none;
     border-bottom: #7D0100 solid;
 }
 font-size: 100%;
+
+    @media screen and (max-width: ${breakpoints.tablet}) {
+        width: 50%;
+    }
+
+    @media screen and (max-width: ${breakpoints.mobile}) {
+        width: 100%;
+    };
 `
 
 export const ContactButtonComponent = styled.button`
@@ -62,6 +98,14 @@ border: none;
     border-bottom: #7D0100 solid;
 }
 font-size: 100%;
+
+    @media screen and (max-width: ${breakpoints.tablet}) {
+        width: 50%;
+    }
+
+    @media screen and (max-width: ${breakpoints.mobile}) {
+        width: 100%;
+    };
 `
 
 export const ButtonsContainer = styled.div`
@@ -74,12 +118,26 @@ width: 33vw;
 height: 10vh;
 background-color: #FFFFFF;
 padding-bottom: 0.75rem;
+    @media screen and (max-width: ${breakpoints.tablet}) {
+        width: 50%;
+    }
+
+    @media screen and (max-width: ${breakpoints.mobile}) {
+        width: 70%;
+    };
 `
 
 export const LogoContainer = styled.div`
 width: 7.9vw;
 height: 10vh;
 padding: 0.2rem;
+    @media screen and (max-width: ${breakpoints.tablet}) {
+        width: 50%;
+    }
+
+    @media screen and (max-width: ${breakpoints.mobile}) {
+        width: 100%;
+    };
 `
 
 export const LogoImage = styled.img`

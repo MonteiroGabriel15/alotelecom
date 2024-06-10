@@ -1,11 +1,24 @@
 import styled from "styled-components"
 import coinorginal from "../../../assets/coindimensionada.jpg"
 
+const breakpoints = {
+    mobile: '320px',
+    tablet: '768px',
+    desktop: '1024px',
+};
+
 export const ImgContainer = styled.div`
 display: flex;
 width:  100%;
 height: 97vh;
 background-image: url(${coinorginal});
+    @media screen and (max-width: ${breakpoints.tablet}) {
+        width: 50%;
+    }
+
+    @media screen and (max-width: ${breakpoints.mobile}) {
+        width: 100%;
+    };
 `
 export const TextContainer = styled.div`
 display: flex;
@@ -33,6 +46,14 @@ h3{
     color: #FFFFFF;
     text-shadow: 1px 1px 2px black;
 }
+
+    @media screen and (max-width: ${breakpoints.tablet}) {
+        width: 50%;
+    }
+
+    @media screen and (max-width: ${breakpoints.mobile}) {
+        width: 100%;
+    };
 `
 
 export const CardsContainer = styled.div`
