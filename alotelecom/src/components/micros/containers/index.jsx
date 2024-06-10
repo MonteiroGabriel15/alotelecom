@@ -136,7 +136,7 @@ export const WhoWeAreContainer = () => {
                 <h3>Quem somos?</h3>
                 <h1>Alo Telecom</h1>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed commodi est fugit! Voluptates adipisci impedit, ipsum, veniam error ullam explicabo cum soluta incidunt aliquid officiis tempora iusto quos voluptas eveniet.</p>
-                <ButtonCard>Testando</ButtonCard>
+                <ButtonCard>TESTANDO</ButtonCard>
                 </DescriptionTextContainer>
             </DescriptionContainer>
         </WwaContainer>

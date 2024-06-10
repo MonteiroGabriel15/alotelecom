@@ -56,7 +56,7 @@ display:flex;
 flex-direction: column;
 align-items: center;
 width: 14vw;
-height: 60vh;
+height: 65vh;
 border-radius: 1rem;
 background-color: #F7F7F7F7;
 `
@@ -92,6 +92,7 @@ gap: 1.5rem;
 padding: 2rem;
 height:100%;
 width:100%;
+overflow: hidden;
 background-color: #F7F7F7F7;
 h4{
     font-weight: bold;
@@ -106,7 +107,7 @@ p{
 `
 export const ButtonCard = styled.button`
 width: 40%;
-height: 15%;
+height: 14%;
 border: 0;
 margin-bottom:1rem;
 border-radius: 3rem;
@@ -165,6 +166,7 @@ background-color: #F7F7F7;
 border-radius: 0.5rem;
 font-size: 20px;
 padding: 1.3rem;
+overflow: hidden;
 `
 
 export const VantagensPostDown = styled.div`
@@ -264,27 +266,30 @@ p{
 `
 export const Forms = styled.div`
 display: flex;
-justify-content: center;;
+justify-content: space-between;
 align-items: center;
 width: 60%;
-height: 65%;
+height: 55%;
 background-color: #CC3D3D;
 border-radius: 0.4rem;
 padding: 5rem;
 flex-wrap:wrap;
-gap: 0.29rem;
+gap: 2rem;
 `
 
 export const InputForm = styled.input`
-width: 33%;
+width: 28%;
 height: 13%;
-padding: 5px;
+padding: 1rem;
 background-color: #fff;
 border: 0;
 border-radius: 3rem;
+outline: none;
 `
 
 export const ButtonForm = styled.button`
+position: relative;
+left: 43%;
 background-color: #cC3D3D;
 width: 12%;
 height: 12%;
@@ -298,12 +303,14 @@ cursor: pointer;
     color: #cc3d3d;
 }
 `
-export const InputMessage = styled.input`
-display: flex; 
-background-color: #ffCC3D3Df; 
+export const InputMessage = styled.textarea`
+background-color: #fff; 
 width: 100%;
 height: 60%;
+word-wrap: break-word;
 border: 0;
 border-radius: 1rem;
-padding: 1rem;
+padding-left: 1rem;
+padding-top: 0.5rem;
+outline: none;
 `
