@@ -28,12 +28,26 @@ export const HowItWorksContainer = () => {
                 <HowItWorksCards>
                 <CardImage src = {composition1}/>
                 <CardsText>
-                    <h4>
-                            Teste
+                        <h4>
+                            Diagnóstico Personalizado
                         </h4> 
                         
                         <p>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium molestias, tempore aspernatur cupiditate eveniet cumque eum voluptatum dicta obcaecati optio laudantium beatae officiis minus quia sequi soluta et, id placeat!
+                            Avaliamos a infraestrutura e as necessidades de telecomunicação da sua empresa.
+                        </p>
+                </CardsText>
+                <ButtonCard>TESTANDO</ButtonCard>
+                </HowItWorksCards>
+
+                <HowItWorksCards>
+                <CardImage src = {composition1}/>
+                <CardsText>
+                        <h4>
+                            Planejamento
+                        </h4> 
+                        
+                        <p>
+                            Desenvolvemos um plano de ação eficaz para otimizar os recursos e reduzir os custos.    
                         </p>
                 </CardsText>
                 <ButtonCard>TESTANDO</ButtonCard>
@@ -43,25 +57,11 @@ export const HowItWorksContainer = () => {
                 <CardImage src = {composition1}/>
                 <CardsText>
                     <h4>
-                            TesteTesteTesteTesteTeste
-                        </h4> 
-                        
-                        <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo hic, pariatur dicta fuga ad non expedita earum est nesciunt facere quia optio, vero sequi aperiam assumenda numquam accusantium, soluta porro.
-                        </p>
-                </CardsText>
-                <ButtonCard>TESTANDO</ButtonCard>
-                </HowItWorksCards>
-
-                <HowItWorksCards>
-                <CardImage src = {composition1}/>
-                <CardsText>
-                    <h4>
-                    TesteTeste
+                        Implementação
                     </h4> 
                         
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, numquam magnam. Cum totam mollitia, nulla maiores quo officiis consequuntur quis animi exercitationem veritatis amet, quas, enim explicabo optio perspiciatis minima.
+                    Executamos as soluções propostas com suporte especializado e acompanhamento para assegurar a eficácia e satisfação de sua empresa.
                     </p>
                 </CardsText>
                 <ButtonCard>TESTANDO</ButtonCard>
@@ -71,26 +71,12 @@ export const HowItWorksContainer = () => {
                 <CardImage src = {composition1}/>
                 <CardsText>
                     <h4>
-                    TesteTesteTesteTeste
+                    Monitoramento
                     </h4> 
                         
                     <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, ducimus architecto molestias sequi quam, praesentium laboriosam repellat enim unde autem dolorum nisi nemo adipisci iste saepe maxime esse qui. Deleniti?
+                    Acompanhamos continuamente os resultados e realizamos os ajustes necessários para garantir o máximo desempenho e atender às demandas em constante evolução da sua empresa.
                     </p>
-                </CardsText>
-                <ButtonCard>TESTANDO</ButtonCard>
-                </HowItWorksCards>
-
-                <HowItWorksCards>
-                <CardImage src = {composition1}/>
-                <CardsText>
-                    <h4>
-                    TesteTesteTeste
-                        </h4> 
-                        
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit unde nam ratione maxime fugiat sint, illo, quasi error sapiente, a rem? Magni omnis, quae cum ullam aperiam qui sint consequuntur?
-                        </p>
                 </CardsText>
                 <ButtonCard>TESTANDO</ButtonCard>
                 </HowItWorksCards>
@@ -107,7 +93,7 @@ export const BenefitsContainer = () =>{
         </VantagensTitleContainer>
         <VantagensPostsUp>
             <VantagensPost>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum necessitatibus ducimus sunt consequatur possimus officia doloribus, quibusdam commodi sint debitis amet tenetur quam illum ipsam quod, laboriosam temporibus animi inventore.
+                Reduzimos bastante os custos de sua empresa, temos casos de até 30% de redução nos gastos com telecomunicação.
             </VantagensPost>
             <VantagensPost>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, facilis deserunt similique, ab reiciendis impedit dolor adipisci aut voluptate minima repellat harum. Id debitis est necessitatibus fugiat doloribus aspernatur eaque.

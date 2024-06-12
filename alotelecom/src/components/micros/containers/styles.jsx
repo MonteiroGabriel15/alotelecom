@@ -1,24 +1,12 @@
 import styled from "styled-components"
 import coinorginal from "../../../assets/coindimensionada.jpg"
 
-const breakpoints = {
-    mobile: '320px',
-    tablet: '768px',
-    desktop: '1024px',
-};
 
 export const ImgContainer = styled.div`
 display: flex;
 width:  100%;
 height: 97vh;
 background-image: url(${coinorginal});
-    @media screen and (max-width: ${breakpoints.tablet}) {
-        width: 50%;
-    }
-
-    @media screen and (max-width: ${breakpoints.mobile}) {
-        width: 100%;
-    };
 `
 export const TextContainer = styled.div`
 display: flex;
@@ -46,14 +34,6 @@ h3{
     color: #FFFFFF;
     text-shadow: 1px 1px 2px black;
 }
-
-    @media screen and (max-width: ${breakpoints.tablet}) {
-        width: 50%;
-    }
-
-    @media screen and (max-width: ${breakpoints.mobile}) {
-        width: 100%;
-    };
 `
 
 export const CardsContainer = styled.div`
@@ -76,8 +56,8 @@ export const HowItWorksCards = styled.div`
 display:flex;
 flex-direction: column;
 align-items: center;
-width: 14vw;
-height: 65vh;
+width: 19%;
+height: 63vh;
 border-radius: 1rem;
 background-color: #F7F7F7F7;
 `
@@ -124,11 +104,13 @@ p{
     font-weight:light;
     font-size: 14px;
     color: #666666;
+    text-align: justify;
 }
 `
 export const ButtonCard = styled.button`
+align-self: center;
 width: 40%;
-height: 14%;
+height: 20%;
 border: 0;
 margin-bottom:1rem;
 border-radius: 3rem;
@@ -188,6 +170,7 @@ border-radius: 0.5rem;
 font-size: 20px;
 padding: 1.3rem;
 overflow: hidden;
+text-align: justify;
 `
 
 export const VantagensPostDown = styled.div`
@@ -212,7 +195,7 @@ display: flex;
 flex-direction: row;
 justify-content: center;
 background-color: #F7F7F7;
-width: 53%;
+width: 60%;
 height: 56%;
 border-radius:1rem;
 gap: 1.5rem;
