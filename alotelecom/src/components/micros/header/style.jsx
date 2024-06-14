@@ -1,11 +1,9 @@
 import styled from "styled-components";
 
-
-
 export const HeaderComponent = styled.header`
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     width: 100vw;
     height: 10vh;
@@ -23,9 +21,9 @@ export const ButtonsContainer = styled.div`
     gap: 2rem;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    width: auto;
+    width: 40vw;
     height: 10vh;
     background-color: #FFFFFF;
     padding-bottom: 0.75rem;
@@ -33,7 +31,7 @@ export const ButtonsContainer = styled.div`
 `;
 
 export const HomeButtonComponent = styled.button`
-    width: 20%;
+    width: 22%;
     height: 10vh;
     background-color: #FFFFFF;
     color: #7D0100;
@@ -44,45 +42,6 @@ export const HomeButtonComponent = styled.button`
     font-size: 100%;
 `;
 
-export const InstitucionalButtonComponent = styled.button`
-    width: 30%;
-    height: 10vh;
-    background-color: #FFFFFF;
-    color: #7D0100;
-    border: none;
-    &:hover {
-        border-bottom: #7D0100 solid;
-    }
-    font-size: 100%;
-`;
-
-export const AboutUsButtonComponent = styled.button`
-    width: 30%;
-    height: 10vh;
-    background-color: #FFFFFF;
-    color: #7D0100;
-    border: none;
-    &:hover {
-        border-bottom: #7D0100 solid;
-    }
-    font-size: 100%;
-
-`;
-
-export const ContactButtonComponent = styled.button`
-    width: 30%;
-    height: 10vh;
-    background-color: #FFFFFF;
-    color: #7D0100;
-    border: none;
-    &:hover {
-        border-bottom: #7D0100 solid;ya
-    font-size: 100%;
-        width: 100%;
-        text-align: left;
-        padding-left: 1rem;
-    }
-`;
 
 export const LogoContainer = styled.div`
     width: 7.9vw;

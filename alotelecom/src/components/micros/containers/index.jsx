@@ -1,5 +1,5 @@
 import React from "react";
-import { ButtonCard, ButtonForm, CardImage, CardsContainer, CardsText, ContactContainer, ContactText, DescriptionContainer, DescriptionImage, DescriptionTextContainer, Forms, HowItWorkCardContainer, HowItWorksCards, HowItWorksTitleContainer, ImgContainer,InputForm,InputMessage,Subtitle,TextContainer, VantagensContainer, VantagensPost, VantagensPostDown, VantagensPostsUp, VantagensTitleContainer, WwaContainer } from "./styles";
+import { ButtonCard, ButtonForm, CardImage, CardsContainer, CardsText, ContactContainer, ContactText, DescriptionContainer, DescriptionImage, DescriptionTextContainer, DescriptionButton, Forms, HowItWorkCardContainer, HowItWorksCards, HowItWorksTitleContainer, ImgContainer,InputForm,InputMessage,Subtitle,TextContainer, VantagensContainer, VantagensPost, VantagensPostDown, VantagensPostsUp, VantagensTitleContainer, WwaContainer } from "./styles";
 import composition1 from "../../../assets/composition1.jpg";
 import meeting from "../../../assets/meeting1.jpeg"
 
@@ -7,7 +7,7 @@ import meeting from "../../../assets/meeting1.jpeg"
 export const WelcomeContainer = () => {
     return(
         <ImgContainer>
-            <TextContainer><span>Seja bem Vindo!</span> <h3>adipisicing elit. Magni earum nemo, odit pariatur temporibus eos, vero, tenetur delectus ut hic ullam dolorem numquam maiores blanditiis expedita re</h3> <h3>prehenderit corporis unde praesentium </h3> </TextContainer>
+            <TextContainer><h6>Seja Bem Vindo</h6><span>Seja bem Vindo!</span> <h3>adipisicing elit. Magni earum nemo, odit pariatur temporibus eos, vero, tenetur delectus ut hic ullam dolorem numquam maiores blanditiis expedita re</h3> <h3>prehenderit corporis unde praesentium </h3> </TextContainer>
         </ImgContainer>
     )
 }
@@ -89,23 +89,23 @@ export const BenefitsContainer = () =>{
     return(
        <VantagensContainer>
         <VantagensTitleContainer>
-            <h1>Vantagens de ser </h1> <mark>AloTelecom</mark>
+            <h1>Vantagens em ser </h1> <mark>Alô Telecom</mark>
         </VantagensTitleContainer>
         <VantagensPostsUp>
             <VantagensPost>
-                Reduzimos bastante os custos de sua empresa, temos casos de até 30% de redução nos gastos com telecomunicação.
+                Reduzimos bastante os custos de sua empresa, temos casos de até 45% de redução nos gastos com telecomunicação e internet.
             </VantagensPost>
             <VantagensPost>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, facilis deserunt similique, ab reiciendis impedit dolor adipisci aut voluptate minima repellat harum. Id debitis est necessitatibus fugiat doloribus aspernatur eaque.
+                Identificamos áreas que podem ser melhoradas, com cancelamento de recursos não utilizados e otimização de rotas de menor custo.
             </VantagensPost>
         </VantagensPostsUp>
 
         <VantagensPostDown>
             <VantagensPost>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae sint, quia illo quod optio tenetur, amet illum delectus alias voluptates architecto necessitatibus atque pariatur dolor, cum recusandae in excepturi. Sed!
+                Proporcionamos soluções de telecomunicação e internet para proporcionar maior produtividade e eficiência para sua empresa.
             </VantagensPost>
             <VantagensPost>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita, incidunt vitae? Nobis porro temporibus voluptas iusto, quibusdam dolor, autem, tempora consectetur reiciendis itaque ducimus quis nostrum quae nemo aut eos?
+                Nossa consultoria especializada permite que você foque em seu negócio.  
             </VantagensPost>
         </VantagensPostDown>
        </VantagensContainer>
@@ -120,9 +120,9 @@ export const WhoWeAreContainer = () => {
                 <DescriptionImage src = {meeting} />
                 <DescriptionTextContainer>
                 <h3>Quem somos?</h3>
-                <h1>Alo Telecom</h1>
+                <span>Referência</span> <h1>em consultoria</h1>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed commodi est fugit! Voluptates adipisci impedit, ipsum, veniam error ullam explicabo cum soluta incidunt aliquid officiis tempora iusto quos voluptas eveniet.</p>
-                <ButtonCard>TESTANDO</ButtonCard>
+                <DescriptionButton>TESTANDO</DescriptionButton>
                 </DescriptionTextContainer>
             </DescriptionContainer>
         </WwaContainer>

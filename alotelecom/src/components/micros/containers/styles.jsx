@@ -34,6 +34,9 @@ h3{
     color: #FFFFFF;
     text-shadow: 1px 1px 2px black;
 }
+
+h6{
+}
 `
 
 export const CardsContainer = styled.div`
@@ -193,10 +196,9 @@ height:80vh;
 export const DescriptionContainer = styled.div`
 display: flex;
 flex-direction: row;
-justify-content: center;
 background-color: #F7F7F7;
 width: 60%;
-height: 56%;
+height: 70%;
 border-radius:1rem;
 gap: 1.5rem;
 
@@ -217,21 +219,49 @@ width:47%;
 export const DescriptionTextContainer = styled.div`
 display:flex;
 flex-direction: column;
-justify-content: space-around;
+justify-content: space-evenly;
 width: 53%;
-height:97%
+height: 100%
+text-align: justify;
+
 h3{
+    font-size: 15px;
     font-weight: light;
-    color: ##666666;
+    color: #666666;
 }
 
 h1{
+    font-size: 30px;
     color: #212529;
 }
 
 p{
-    color: ##666666;
+    font-size: 14 px;
+    color: #666666;
 }
+
+    span{
+    font-size: 30px;
+    }
+`
+
+export const DescriptionButton = styled.button`
+align-self: center;
+width: 25%;
+height: 10%;
+border: 0;
+margin-bottom:1rem;
+border-radius: 3rem;
+background-color: #7F0000;
+color: #FFF;
+font-size: 95%;
+cursor:pointer;
+font-weight: bold;
+&:hover{
+    background-color: #fff;
+    color: #7f0000;
+}
+
 `
 export const ContactContainer = styled.div`
 display: flex;
