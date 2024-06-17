@@ -1,41 +1,54 @@
 import styled from "styled-components"
-import coinorginal from "../../../assets/coindimensionada.jpg"
+import coinorginal from "../../../assets/newcoin.png"
+import vantagens from "../../../assets/teste.png"
 
 
 export const ImgContainer = styled.div`
 display: flex;
 width:  100%;
-height: 97vh;
+height: 100vh;
 background-image: url(${coinorginal});
+border-bottom: 20px solid #000;
 `
 export const TextContainer = styled.div`
 display: flex;
 position: relative;
-top: 15%;
-left: 1%;
+top: 30%;
+left: 5%;
 flex-direction: column;
 justify-content: space-evenly;
-width: 25%;
+width: 50%;
 height: 25%;
 color: #FFFFFF;
 span{
     color:#cc3d3d;
-    text-shadow: 1px 1px 2px black;
     font-weight: bold;
-    font-size: xxx-large;
+    font-size: 44px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px black;
 }
 
 h4{
     color: #FFFFFF;
     text-shadow: 1px 1px 2px black;
+    font-size: 44px;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
-h3{
+p{
     color: #FFFFFF;
     text-shadow: 1px 1px 2px black;
+    
 }
 
 h6{
+    font-size: 28px;
+    color: #cc3d3d;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
 }
 `
 
@@ -132,7 +145,7 @@ font-weight: bold;
 export const VantagensContainer = styled.div`
 width:100%;
 height:100vh;
-background-color: #000;
+background-image: url(${vantagens});
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -147,12 +160,19 @@ gap: 1rem;
 h1{
     color: #FFF;
     font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 2.5px;
 }
 mark{
     background-color: #7F0000;
     text-shadow: black 0.1em 0.1em 0.2em;
     color: #FFF;
-    font-size: 36px
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
 }
 `
 
@@ -168,12 +188,14 @@ gap:2rem;
 export const VantagensPost = styled.div`
 width: 30%;
 height:100%;
-background-color: #F7F7F7;
-border-radius: 0.5rem;
+background-color: none.
+border-radius: 1rem;
 font-size: 20px;
 padding: 1.3rem;
 overflow: hidden;
 text-align: justify;
+border: 1mm ridge  rgba(0, 0, 0);
+color: #fff;
 `
 
 export const VantagensPostDown = styled.div`
@@ -197,7 +219,7 @@ export const DescriptionContainer = styled.div`
 display: flex;
 flex-direction: row;
 background-color: #F7F7F7;
-width: 60%;
+width: 80%;
 height: 70%;
 border-radius:1rem;
 gap: 1.5rem;
@@ -214,13 +236,14 @@ p{
 ` 
 export const DescriptionImage = styled.img`
 width:47%;
+border-radius:1rem;
 `
 
 export const DescriptionTextContainer = styled.div`
 display:flex;
 flex-direction: column;
 justify-content: space-evenly;
-width: 53%;
+width: 90%;
 height: 100%
 text-align: justify;
 
@@ -232,7 +255,8 @@ h3{
 
 h1{
     font-size: 30px;
-    color: #212529;
+    color: #212529; 
+  }
 }
 
 p{
@@ -242,6 +266,7 @@ p{
 
     span{
     font-size: 30px;
+  }
     }
 `
 

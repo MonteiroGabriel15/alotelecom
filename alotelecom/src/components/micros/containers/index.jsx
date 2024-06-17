@@ -7,7 +7,7 @@ import meeting from "../../../assets/meeting1.jpeg"
 export const WelcomeContainer = () => {
     return(
         <ImgContainer>
-            <TextContainer><h6>Seja Bem Vindo</h6><span>Seja bem Vindo!</span> <h3>adipisicing elit. Magni earum nemo, odit pariatur temporibus eos, vero, tenetur delectus ut hic ullam dolorem numquam maiores blanditiis expedita re</h3> <h3>prehenderit corporis unde praesentium </h3> </TextContainer>
+            <TextContainer><h6>Seja bem Vindo!</h6><span>Reduza seus custos</span> <h4>Agende sua consultoria.  </h4> <p>prehenderit corporis unde praesentium </p> </TextContainer>
         </ImgContainer>
     )
 }
@@ -89,7 +89,7 @@ export const BenefitsContainer = () =>{
     return(
        <VantagensContainer>
         <VantagensTitleContainer>
-            <h1>Vantagens em ser </h1> <mark>Alô Telecom</mark>
+            <h1>Vantagens em ser </h1> <mark>AlôTelecom</mark>
         </VantagensTitleContainer>
         <VantagensPostsUp>
             <VantagensPost>
@@ -120,7 +120,7 @@ export const WhoWeAreContainer = () => {
                 <DescriptionImage src = {meeting} />
                 <DescriptionTextContainer>
                 <h3>Quem somos?</h3>
-                <span>Referência</span> <h1>em consultoria</h1>
+                <span>Referência <h1>em consultoria</h1> </span>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed commodi est fugit! Voluptates adipisci impedit, ipsum, veniam error ullam explicabo cum soluta incidunt aliquid officiis tempora iusto quos voluptas eveniet.</p>
                 <DescriptionButton>TESTANDO</DescriptionButton>
                 </DescriptionTextContainer>
