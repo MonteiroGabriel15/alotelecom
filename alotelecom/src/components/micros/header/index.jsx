@@ -2,7 +2,7 @@ import React from "react";
 import { HeaderComponent, HomeButtonComponent, ButtonsContainer, LogoContainer, LogoImage } from "./style";
 import imagem1 from '../../../assets/imagem1.png';
 
-const Header = ({ welcomeRef, howItWorksRef, benefitsRef, whoWeAreRef, contactUsRef }) => {
+const Header = ({ welcomeRef, howItWorksRef, whoWeAreRef, contactUsRef }) => {
 
     const scrollToSection = (ref) => {
         ref.current.scrollIntoView({ behavior: 'smooth' });
@@ -19,9 +19,6 @@ const Header = ({ welcomeRef, howItWorksRef, benefitsRef, whoWeAreRef, contactUs
                 </HomeButtonComponent>
                 <HomeButtonComponent onClick={() => scrollToSection(howItWorksRef)}>
                     COMO FUNCIONA
-                </HomeButtonComponent>
-                <HomeButtonComponent onClick={() => scrollToSection(benefitsRef)}>
-                    VANTAGENS
                 </HomeButtonComponent>
                 <HomeButtonComponent onClick={() => scrollToSection(whoWeAreRef)}>
                     SOBRE NÓS

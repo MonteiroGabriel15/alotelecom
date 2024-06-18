@@ -26,7 +26,7 @@ const Home = () => {
             <div id="how-it-works"  ref={howItWorksRef}>
                 <HowItWorksContainer />
             </div>
-            <div ref={benefitsRef}>
+            <div>
                 <BenefitsContainer />
             </div>
             <div id="about-us" ref={whoWeAreRef}>
