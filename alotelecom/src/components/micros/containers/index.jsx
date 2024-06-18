@@ -7,7 +7,7 @@ import meeting from "../../../assets/meeting1.jpeg"
 export const WelcomeContainer = () => {
     return(
         <ImgContainer>
-            <TextContainer><h6>Seja bem Vindo!</h6><span>Reduza seus custos</span> <h4>Agende sua consultoria.  </h4> <p>prehenderit corporis unde praesentium </p> </TextContainer>
+            <TextContainer><h6>Seja bem Vindo!</h6><span>Reduza seus custos</span> <h4>Agende sua consultoria</h4> <p>Reduzimos seus gastos e poupamos seu tempo para poder focar somente em seu negócio. </p> </TextContainer>
         </ImgContainer>
     )
 }
@@ -36,7 +36,7 @@ export const HowItWorksContainer = () => {
                             Avaliamos a infraestrutura e as necessidades de telecomunicação da sua empresa.
                         </p>
                 </CardsText>
-                <ButtonCard>TESTANDO</ButtonCard>
+                <ButtonCard>CONSULTE</ButtonCard>
                 </HowItWorksCards>
 
                 <HowItWorksCards>
@@ -50,7 +50,7 @@ export const HowItWorksContainer = () => {
                             Desenvolvemos um plano de ação eficaz para otimizar os recursos e reduzir os custos.    
                         </p>
                 </CardsText>
-                <ButtonCard>TESTANDO</ButtonCard>
+                <ButtonCard>CONSULTE</ButtonCard>
                 </HowItWorksCards>
 
                 <HowItWorksCards>
@@ -64,7 +64,7 @@ export const HowItWorksContainer = () => {
                     Executamos as soluções propostas com suporte especializado e acompanhamento para assegurar a eficácia e satisfação de sua empresa.
                     </p>
                 </CardsText>
-                <ButtonCard>TESTANDO</ButtonCard>
+                <ButtonCard>CONSULTE</ButtonCard>
                 </HowItWorksCards>
 
                 <HowItWorksCards>
@@ -78,7 +78,7 @@ export const HowItWorksContainer = () => {
                     Acompanhamos continuamente os resultados e realizamos os ajustes necessários para garantir o máximo desempenho e atender às demandas em constante evolução da sua empresa.
                     </p>
                 </CardsText>
-                <ButtonCard>TESTANDO</ButtonCard>
+                <ButtonCard>CONSULTE</ButtonCard>
                 </HowItWorksCards>
             </HowItWorkCardContainer>
         </CardsContainer>
@@ -120,9 +120,9 @@ export const WhoWeAreContainer = () => {
                 <DescriptionImage src = {meeting} />
                 <DescriptionTextContainer>
                 <h3>Quem somos?</h3>
-                <span>Referência <h1>em consultoria</h1> </span>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed commodi est fugit! Voluptates adipisci impedit, ipsum, veniam error ullam explicabo cum soluta incidunt aliquid officiis tempora iusto quos voluptas eveniet.</p>
-                <DescriptionButton>TESTANDO</DescriptionButton>
+                <h1>Referência em </h1> <span>Telecomunicação</span>
+                <p>A AlôTelecom é uma empresa especializada em gestão e consultoria de telecomunicação, visando reduzir os gastos e o tempo que o cliente teria que despender para gerenciar e otimizar suas operações de telecomunicações, permitindo que se concentrem em suas atividades principais.</p>
+                <DescriptionButton>CONSULTE</DescriptionButton>
                 </DescriptionTextContainer>
             </DescriptionContainer>
         </WwaContainer>

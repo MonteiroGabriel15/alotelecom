@@ -16,6 +16,7 @@ flex-direction: column;
 width: 19%;
 height:100%;
 gap: 0.5rem;
+text-align: justify;
 h3{
     color: #fff;
 }

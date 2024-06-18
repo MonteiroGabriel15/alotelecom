@@ -1,8 +1,12 @@
 import React from "react";
-import { HeaderComponent, HomeButtonComponent, ButtonsContainer, LogoContainer, LogoImage,} from "./style";
+import { HeaderComponent, HomeButtonComponent, ButtonsContainer, LogoContainer, LogoImage } from "./style";
 import imagem1 from '../../../assets/imagem1.png';
 
-const Header = () => {
+const Header = ({ welcomeRef, howItWorksRef, benefitsRef, whoWeAreRef, contactUsRef }) => {
+
+    const scrollToSection = (ref) => {
+        ref.current.scrollIntoView({ behavior: 'smooth' });
+    };
 
     return (
         <HeaderComponent>
@@ -10,19 +14,19 @@ const Header = () => {
                 <LogoImage src={imagem1} alt="logo" />
             </LogoContainer>
             <ButtonsContainer>
-                <HomeButtonComponent>
+                <HomeButtonComponent onClick={() => scrollToSection(welcomeRef)}>
                     HOME
                 </HomeButtonComponent>
-
-                <HomeButtonComponent>
+                <HomeButtonComponent onClick={() => scrollToSection(howItWorksRef)}>
                     COMO FUNCIONA
                 </HomeButtonComponent>
-
-                <HomeButtonComponent>
+                <HomeButtonComponent onClick={() => scrollToSection(benefitsRef)}>
+                    VANTAGENS
+                </HomeButtonComponent>
+                <HomeButtonComponent onClick={() => scrollToSection(whoWeAreRef)}>
                     SOBRE NÓS
                 </HomeButtonComponent>
-
-                <HomeButtonComponent>
+                <HomeButtonComponent onClick={() => scrollToSection(contactUsRef)}>
                     CONTATO
                 </HomeButtonComponent>
             </ButtonsContainer>

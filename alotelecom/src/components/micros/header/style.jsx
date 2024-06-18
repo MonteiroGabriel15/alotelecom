@@ -23,7 +23,7 @@ export const ButtonsContainer = styled.div`
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    width: 40vw;
+    width: 50vw;
     height: 10vh;
     background-color: #FFFFFF;
     padding-bottom: 0.75rem;
@@ -31,7 +31,7 @@ export const ButtonsContainer = styled.div`
 `;
 
 export const HomeButtonComponent = styled.button`
-    width: 22%;
+    width: 15%;
     height: 10vh;
     background-color: #FFFFFF;
     color: #7D0100;

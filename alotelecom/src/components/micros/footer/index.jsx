@@ -7,16 +7,16 @@ export const Footer = () => {
         <FooterContainer>
             <Container>
             <Title>Quem Somos</Title>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum rem quia sint saepe nihil distinctio. Ratione omnis culpa quos ad iste voluptate explicabo voluptates facere tempora. Ipsum nesciunt cupiditate vero.</p>
+            <p>A AlôTelecom é uma empresa focada em reduzir gastos e economizar tempo de seus clientes </p> 
             </Container>
             <Container>
                 <Title> Institucional </Title>
-                <p> Como Funciona </p>
-                <p>Quem Somos</p>
+                <a href="#how-it-works"> Como Funciona </a>
+                <a href="#about-us">Quem Somos</a>
             </Container>
             <Container>
                 <Title>Contato</Title>
-                <a href = "https://business.whatsapp.com/?lang=pt_BR" target="_blank" rel="noopener noreferrer">+55 32 99999-9999
+                <a href = "https://business.whatsapp.com/?lang=pt_BR" target="_blank" rel="noopener noreferrer">+55 32 3512-5900
                 <IconWpp src = {wpp}/>
                 </a>
             </Container>

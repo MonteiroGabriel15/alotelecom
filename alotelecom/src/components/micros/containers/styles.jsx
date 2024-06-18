@@ -8,7 +8,7 @@ display: flex;
 width:  100%;
 height: 100vh;
 background-image: url(${coinorginal});
-border-bottom: 20px solid #000;
+border-bottom: 15px solid #000;
 `
 export const TextContainer = styled.div`
 display: flex;
@@ -63,7 +63,7 @@ background-color: #FFF;
 `
 export const HowItWorkCardContainer = styled.div`
 display: flex;
-justify-content: space-around;
+justify-content: space-evenly;
 align-items: center;
 width: 100%;
 height: 100vh;
@@ -72,7 +72,7 @@ export const HowItWorksCards = styled.div`
 display:flex;
 flex-direction: column;
 align-items: center;
-width: 19%;
+width: 16%;
 height: 63vh;
 border-radius: 1rem;
 background-color: #F7F7F7F7;
@@ -244,8 +244,14 @@ display:flex;
 flex-direction: column;
 justify-content: space-evenly;
 width: 90%;
-height: 100%
-text-align: justify;
+height: 100%;
+padding-right: 1.5rem;
+
+h1{
+    font-size: 36px;
+    color: #212529; 
+    font-weight: 600;
+}
 
 h3{
     font-size: 15px;
@@ -253,21 +259,20 @@ h3{
     color: #666666;
 }
 
-h1{
-    font-size: 30px;
-    color: #212529; 
-  }
-}
-
 p{
-    font-size: 14 px;
+    font-size: 14px;
     color: #666666;
+    text-align: justify;
 }
 
-    span{
-    font-size: 30px;
-  }
-    }
+span{
+    font-size: 36px;
+    color: #7f0000; 
+    font-weight: 600;
+    white-space: nowrap;
+
+
+}
 `
 
 export const DescriptionButton = styled.button`
