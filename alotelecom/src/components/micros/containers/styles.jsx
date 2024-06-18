@@ -72,8 +72,8 @@ export const HowItWorksCards = styled.div`
 display:flex;
 flex-direction: column;
 align-items: center;
-width: 16%;
-height: 63vh;
+width: 15%;
+height: 75%;
 border-radius: 1rem;
 background-color: #F7F7F7F7;
 `

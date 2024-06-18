@@ -13,6 +13,9 @@ export const WelcomeContainer = () => {
 }
 
 export const HowItWorksContainer = () => {
+    const redirectToWhatsApp = () => {
+    const whatsappLink = "https://api.whatsapp.com/send?phone=553235125900";
+        window.open(whatsappLink, "_blank")};
     return(
         <CardsContainer>
             <HowItWorksTitleContainer>
@@ -36,7 +39,7 @@ export const HowItWorksContainer = () => {
                             Avaliamos a infraestrutura e as necessidades de telecomunicação da sua empresa.
                         </p>
                 </CardsText>
-                <ButtonCard>CONSULTE</ButtonCard>
+                <ButtonCard onClick={redirectToWhatsApp}>CONSULTE</ButtonCard>
                 </HowItWorksCards>
 
                 <HowItWorksCards>
@@ -50,7 +53,7 @@ export const HowItWorksContainer = () => {
                             Desenvolvemos um plano de ação eficaz para otimizar os recursos e reduzir os custos.    
                         </p>
                 </CardsText>
-                <ButtonCard>CONSULTE</ButtonCard>
+                <ButtonCard onClick={redirectToWhatsApp}>CONSULTE</ButtonCard>
                 </HowItWorksCards>
 
                 <HowItWorksCards>
@@ -64,7 +67,7 @@ export const HowItWorksContainer = () => {
                     Executamos as soluções propostas com suporte especializado e acompanhamento para assegurar a eficácia e satisfação de sua empresa.
                     </p>
                 </CardsText>
-                <ButtonCard>CONSULTE</ButtonCard>
+                <ButtonCard onClick={redirectToWhatsApp}>CONSULTE</ButtonCard>
                 </HowItWorksCards>
 
                 <HowItWorksCards>
@@ -78,7 +81,7 @@ export const HowItWorksContainer = () => {
                     Acompanhamos continuamente os resultados e realizamos os ajustes necessários para garantir o máximo desempenho e atender às demandas em constante evolução da sua empresa.
                     </p>
                 </CardsText>
-                <ButtonCard>CONSULTE</ButtonCard>
+                <ButtonCard onClick={redirectToWhatsApp}>CONSULTE</ButtonCard>
                 </HowItWorksCards>
             </HowItWorkCardContainer>
         </CardsContainer>
@@ -114,6 +117,9 @@ export const BenefitsContainer = () =>{
 }
 
 export const WhoWeAreContainer = () => {
+    const redirectToWhatsApp = () => {
+        const whatsappLink = "https://api.whatsapp.com/send?phone=553235125900";
+            window.open(whatsappLink, "_blank")};
     return(
         <WwaContainer>
             <DescriptionContainer>
@@ -122,7 +128,7 @@ export const WhoWeAreContainer = () => {
                 <h3>Quem somos?</h3>
                 <h1>Referência em </h1> <span>Telecomunicação</span>
                 <p>A AlôTelecom é uma empresa especializada em gestão e consultoria de telecomunicação, visando reduzir os gastos e o tempo que o cliente teria que despender para gerenciar e otimizar suas operações de telecomunicações, permitindo que se concentrem em suas atividades principais.</p>
-                <DescriptionButton>CONSULTE</DescriptionButton>
+                <DescriptionButton onClick={redirectToWhatsApp}>CONSULTE</DescriptionButton>
                 </DescriptionTextContainer>
             </DescriptionContainer>
         </WwaContainer>
@@ -149,3 +155,4 @@ export const ContactUsContainer = () => {
         </ContactContainer>
     )
 }
+

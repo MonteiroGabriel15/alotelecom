@@ -16,7 +16,7 @@ export const Footer = () => {
             </Container>
             <Container>
                 <Title>Contato</Title>
-                <a href = "https://business.whatsapp.com/?lang=pt_BR" target="_blank" rel="noopener noreferrer">+55 32 3512-5900
+                <a href = "https://api.whatsapp.com/send?phone=553235125900" target="_blank" rel="noopener noreferrer">+55 32 3512-5900
                 <IconWpp src = {wpp}/>
                 </a>
             </Container>
