@@ -4,7 +4,7 @@ import vantagens from "../../../assets/teste.png";
 
 const breakpoints = {
   mobile: '480px',
-  tablet: '767px',
+  tablet: '768px',
   desktop: '1024px',
 };
 
@@ -244,9 +244,9 @@ export const VantagensContainer = styled.div`
   gap: 3rem;
 
   @media (max-width: ${breakpoints.tablet}) {
-    height: auto;
+    height: 100%;
     padding: 2rem;
-    flex-wrap: wrap;
+    justify-content: flex-start;
   }
 `;
 
@@ -255,6 +255,7 @@ export const VantagensTitleContainer = styled.div`
   display: flex;
   justify-content: center;
   gap: 1rem;
+  
 
   h1 {
     color: #fff;
@@ -295,6 +296,7 @@ export const VantagensPostsUp = styled.div`
   @media (max-width: ${breakpoints.tablet}) {
     flex-direction: column;
     height: 100%;
+    width: 100%;
   }
 `;
 
@@ -326,7 +328,8 @@ export const VantagensPostDown = styled.div`
 
   @media (max-width: ${breakpoints.tablet}) {
     flex-direction: column;
-    height: auto;
+    height: 100%;
+    width: 100%;
   }
 `;
 
@@ -403,6 +406,7 @@ export const DescriptionTextContainer = styled.div`
     font-size: 15px;
     font-weight: light;
     color: #666666;
+    margin-bottom: 0.5rem;
   }
 
   p {
@@ -419,6 +423,7 @@ export const DescriptionTextContainer = styled.div`
 
     @media (max-width: ${breakpoints.mobile}) {
       font-size: 24px;
+      margin-bottom: 1rem;
     }
   }
 `;
@@ -444,7 +449,8 @@ export const DescriptionButton = styled.button`
   @media (max-width: ${breakpoints.mobile}) {
     width: 60%;
     height: auto;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0.5rem;
+    margin-top: 1rem;
   }
 `;
 
@@ -473,7 +479,7 @@ export const ContactText = styled.div`
     font-size: 36px;
 
     @media (max-width: ${breakpoints.mobile}) {
-      font-size: 24px;
+      font-size: 22px;
     }
   }
 
@@ -482,7 +488,7 @@ export const ContactText = styled.div`
     color: #7f0000;
 
     @media (max-width: ${breakpoints.mobile}) {
-      font-size: 24px;
+      font-size: 22px;
     }
   }
 `;
