@@ -30,7 +30,7 @@ export const HowItWorksContainer = () => {
                 <HowItWorkCardContainer>
                 <HowItWorksCards>
                 <CardImage src = {composition1}/>
-                <CardsText>
+                 <CardsText>
                         <h4>
                             Diagnóstico Personalizado
                         </h4> 
@@ -38,7 +38,7 @@ export const HowItWorksContainer = () => {
                         <p>
                             Avaliamos a infraestrutura e as necessidades de telecomunicação da sua empresa.
                         </p>
-                </CardsText>
+                    </CardsText>
                 <ButtonCard onClick={redirectToWhatsApp}>CONSULTE</ButtonCard>
                 </HowItWorksCards>
 
@@ -92,7 +92,7 @@ export const BenefitsContainer = () =>{
     return(
        <VantagensContainer>
         <VantagensTitleContainer>
-            <h1>Vantagens em ser </h1> <mark>AlôTelecom</mark>
+            <h1>Vantagens em ser </h1> <mark>Alô Telecom</mark>
         </VantagensTitleContainer>
         <VantagensPostsUp>
             <VantagensPost>
@@ -127,7 +127,7 @@ export const WhoWeAreContainer = () => {
                 <DescriptionTextContainer>
                 <h3>Quem somos?</h3>
                 <h1>Referência em </h1> <span>Telecomunicação</span>
-                <p>A AlôTelecom é uma empresa especializada em gestão e consultoria de telecomunicação, visando reduzir os gastos e o tempo que o cliente teria que despender para gerenciar e otimizar suas operações de telecomunicações, permitindo que se concentrem em suas atividades principais.</p>
+                <p>A Alô Telecom é uma empresa especializada em gestão e consultoria de telecomunicação, visando reduzir os gastos e o tempo que o cliente teria que despender para gerenciar e otimizar suas operações de telecomunicações, permitindo que se concentrem em suas atividades principais.</p>
                 <DescriptionButton onClick={redirectToWhatsApp}>CONSULTE</DescriptionButton>
                 </DescriptionTextContainer>
             </DescriptionContainer>
