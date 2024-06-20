@@ -13,7 +13,7 @@ export const Container = styled.div`
 display: flex;
 justify-content: flex-start;
 flex-direction: column;
-width: 19%;
+width: 18.5%;
 height:100%;
 gap: 0.5rem;
 text-align: justify;

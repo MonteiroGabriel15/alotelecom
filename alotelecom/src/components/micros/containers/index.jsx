@@ -108,7 +108,7 @@ export const BenefitsContainer = () =>{
                 Proporcionamos soluções de telecomunicação e internet para proporcionar maior produtividade e eficiência para sua empresa.
             </VantagensPost>
             <VantagensPost>
-                Nossa consultoria especializada permite que você foque em seu negócio.  
+                Nossa consultoria especializada permite que você foque apenas em seu negócio.  
             </VantagensPost>
         </VantagensPostDown>
        </VantagensContainer>
@@ -136,6 +136,7 @@ export const WhoWeAreContainer = () => {
 }
 
 export const ContactUsContainer = () => {
+    
     return(
         <ContactContainer>
             <ContactText>

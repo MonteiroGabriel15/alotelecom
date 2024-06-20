@@ -7,7 +7,7 @@ export const Footer = () => {
         <FooterContainer>
             <Container>
             <Title>Quem Somos</Title>
-            <p>A AlôTelecom é uma empresa focada em reduzir gastos e economizar tempo de seus clientes </p> 
+            <p>A Alô Telecom é uma empresa focada em reduzir gastos e economizar tempo de seus clientes </p> 
             </Container>
             <Container>
                 <Title> Institucional </Title>
