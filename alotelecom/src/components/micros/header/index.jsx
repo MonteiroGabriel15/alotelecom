@@ -1,18 +1,20 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import { HeaderComponent, HomeButtonComponent, ButtonsContainer, LogoContainer, LogoImage, MenuIcon } from "./style";
 import imagem1 from '../../../assets/imagem1.png';
-import menu1 from '../../../assets/menu-aberto.png'
+import menu1 from '../../../assets/menu-aberto.png';
 
 const Header = ({ welcomeRef, howItWorksRef, whoWeAreRef, contactUsRef }) => {
 
     const scrollToSection = (ref) => {
         ref.current.scrollIntoView({ behavior: 'smooth' });
+        toggleMenu(); 
     };
+
     const [isMenuOpen, setMenuOpen] = useState(false);
 
     const toggleMenu = () => {
-    setMenuOpen(!isMenuOpen);
-    }
+        setMenuOpen(!isMenuOpen);
+    };
 
     return (
         <HeaderComponent>
