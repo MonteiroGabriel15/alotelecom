@@ -99,7 +99,7 @@ export const BenefitsContainer = () =>{
                 Reduzimos bastante os custos de sua empresa, temos casos de até 45% de redução nos gastos com telecomunicação e internet.
             </VantagensPost>
             <VantagensPost>
-                Identificamos áreas que podem ser melhoradas, com cancelamento de recursos não utilizados e otimização de rotas de menor custo.
+                Identificamos áreas que podem ser melhoradas e otimização de rotas de menor custo.
             </VantagensPost>
         </VantagensPostsUp>
 

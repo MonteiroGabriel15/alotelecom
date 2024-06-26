@@ -197,7 +197,7 @@ export const CardsText = styled.div`
     font-weight: light;
     font-size: 14px;
     color: #666666;
-    text-align: justify;
+    letter-spacing: 2px;
 
     @media (max-width: ${breakpoints.mobile}) {
       font-size: 12px;
