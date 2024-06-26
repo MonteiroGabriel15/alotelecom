@@ -27,12 +27,12 @@ export const ImgContainer = styled.div`
 export const TextContainer = styled.div`
   display: flex;
   position: relative;
-  top: 30%;
-  left: 5%;
+  top: 15%;
+  left: 6.5%;
   flex-direction: column;
   justify-content: space-evenly;
   width: 50%;
-  height: 25%;
+  height: 28%;
   color: #ffffff;
 
   span {
