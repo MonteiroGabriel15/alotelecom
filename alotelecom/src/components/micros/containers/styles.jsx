@@ -32,7 +32,7 @@ export const TextContainer = styled.div`
   flex-direction: column;
   justify-content: space-evenly;
   width: 50%;
-  height: 28%;
+  height: 25%;
   color: #ffffff;
 
   span {
@@ -83,8 +83,8 @@ export const TextContainer = styled.div`
   }
 
   @media (max-width: ${breakpoints.mobile}) {
-    top: 10%;
-    left: 2%;
+    top: 20%;
+    left: 5%;
   }
 `;
 
