@@ -22,8 +22,8 @@ export const ImgContainer = styled.div`
   @media (max-width: ${breakpoints.mobile}) {
     height: 100vh;
   }
-`;
 
+`
 export const TextContainer = styled.div`
   display: flex;
   position: relative;

@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import Header from "../../micros/header";
-import { HomeContainer } from "./styles";
-import { WelcomeContainer, HowItWorksContainer, BenefitsContainer, WhoWeAreContainer, ContactUsContainer } from "../../micros/containers";
+import { HomeContainer } from "./style";
+import { WelcomeContainer, HowItWorksContainer, BenefitsContainer, WhoWeAreContainer, ContactUsContainer } from "../../micros/homecontainers";
 import { Footer } from "../../micros/footer";
 
 const Home = () => {
