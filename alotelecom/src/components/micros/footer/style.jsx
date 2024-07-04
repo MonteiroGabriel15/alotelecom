@@ -9,12 +9,12 @@ const breakpoints = {
 export const FooterContainer = styled.div`
   display: flex;
   justify-content: center;
-  align-items: center; /* Adiciona alinhamento vertical centralizado */
+  align-items: center;
   width: 100%;
   height: 50vh;
   background-color: #232323;
   gap: 5rem;
-  padding: 1rem; /* Adiciona padding para evitar que o conteúdo encoste nas bordas */
+  padding: 1rem; 
 
   @media (max-width: ${breakpoints.tablet}) {
     flex-direction: column;

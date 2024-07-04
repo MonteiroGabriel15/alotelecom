@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import coinorginal from "../../../assets/newcoin.png";
 import vantagens from "../../../assets/teste.png";
+import Swiper from "swiper";
 
 const breakpoints = {
   mobile: '480px',
@@ -454,126 +455,43 @@ export const DescriptionButton = styled.button`
   }
 `;
 
-export const ContactContainer = styled.div`
+export const CarouselContainer = styled.div`
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  width: 100%;
-  height: 90vh;
 
-  @media (max-width: ${breakpoints.tablet}) {
-    height: auto;
-    padding: 2rem;
-  }
-`;
-
-export const ContactText = styled.div`
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  gap: 1rem;
-  margin-bottom: 0.5rem;
-
-  h1 {
-    font-size: 36px;
-
-    @media (max-width: ${breakpoints.mobile}) {
-      font-size: 22px;
-    }
-  }
-
-  p {
-    font-size: 36px;
-    color: #7f0000;
-
-    @media (max-width: ${breakpoints.mobile}) {
-      font-size: 22px;
-    }
-  }
-`;
-
-export const Subtitle = styled.div`
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  margin-bottom: 4rem;
-
-  p {
-    font-size: 15px;
-    color: #6666;
-  }
-`;
-
-export const Forms = styled.div`
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 60%;
-  height: 55%;
-  background-color: #cc3d3d;
-  border-radius: 0.4rem;
-  padding: 5rem;
-  flex-wrap: wrap;
-  gap: 2rem;
-
-  @media (max-width: ${breakpoints.tablet}) {
-    width: 80%;
-    padding: 2rem;
-    gap: 1rem;
-  }
-
-  @media (max-width: ${breakpoints.mobile}) {
+  .swiper-container {
     width: 100%;
-    padding: 1rem;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
   }
 `;
 
-export const InputForm = styled.input`
-  width: 28%;
-  height: 13%;
-  padding: 1rem;
-  background-color: #fff;
-  border: 0;
-  border-radius: 3rem;
-  outline: none;
+export const CarouselImage = styled.img`
+width:100%;
+height: auto;
+`
 
-  @media (max-width: ${breakpoints.mobile}) {
-    width: 100%;
+export const CustomSwiper = styled(Swiper)`
+  .swiper-button-next, .swiper-button-prev {
+    color: #000; 
+  }
+
+  .swiper-pagination-bullet {
+    background-color: #fff; 
   }
 `;
 
-export const ButtonForm = styled.button`
-  position: relative;
-  left: 43%;
-  background-color: #cc3d3d;
-  width: 12%;
-  height: 12%;
-  border-radius: 3rem;
-  border-color: #ffffff;
-  color: #fff;
-  font-weight: bold;
-  cursor: pointer;
-
-  &:hover {
-    background-color: #fff;
-    color: #cc3d3d;
-  }
-
-  @media (max-width: ${breakpoints.mobile}) {
-    width: 100%;
-    left: 0;
-  }
-`;
-
-export const InputMessage = styled.textarea`
-  background-color: #fff;
-  width: 100%;
-  height: 60%;
-  word-wrap: break-word;
-  border: 0;
-  border-radius: 1rem;
-  padding-left: 1rem;
-  padding-top: 0.5rem;
-  outline: none;
-`;

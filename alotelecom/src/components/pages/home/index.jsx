@@ -1,8 +1,11 @@
 import React, { useRef } from "react";
 import Header from "../../micros/header";
 import { HomeContainer } from "./style";
-import { WelcomeContainer, HowItWorksContainer, BenefitsContainer, WhoWeAreContainer, ContactUsContainer } from "../../micros/homecontainers";
+import { WelcomeContainer, HowItWorksContainer, BenefitsContainer, WhoWeAreContainer, Carousel } from "../../micros/homecontent";
 import { Footer } from "../../micros/footer";
+import image1 from "../../../assets/machado sobrinho.png"; // 
+import image2 from "../../../assets/tombos.png";
+import image3 from "../../../assets/Logo-logo conexao.png";
 
 const Home = () => {
     const welcomeRef = useRef(null);
@@ -10,6 +13,8 @@ const Home = () => {
     const benefitsRef = useRef(null);
     const whoWeAreRef = useRef(null);
     const contactUsRef = useRef(null);
+
+    const images = [image1, image2, image3]; 
 
     return (
         <HomeContainer>
@@ -33,7 +38,7 @@ const Home = () => {
                 <WhoWeAreContainer />
             </div>
             <div ref={contactUsRef}>
-                <ContactUsContainer />
+                <Carousel images={images} /> 
             </div>
             <Footer />
         </HomeContainer>

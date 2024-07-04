@@ -1,8 +1,12 @@
-import React, {useState} from "react";
-import { ButtonCard, ButtonForm, CardImage, CardsContainer, CardsText, ContactContainer, ContactText, DescriptionContainer, DescriptionImage, DescriptionTextContainer, DescriptionButton, Forms, HowItWorkCardContainer, HowItWorksCards, HowItWorksTitleContainer, ImgContainer,InputForm,InputMessage,Subtitle,TextContainer, VantagensContainer, VantagensPost, VantagensPostDown, VantagensPostsUp, VantagensTitleContainer, WwaContainer } from "./styles";
+import { ButtonCard, CardImage, CardsContainer, CardsText, DescriptionContainer, DescriptionImage, DescriptionTextContainer, DescriptionButton, HowItWorkCardContainer, HowItWorksCards, HowItWorksTitleContainer, ImgContainer, TextContainer, VantagensContainer, VantagensPost, VantagensPostDown, VantagensPostsUp, VantagensTitleContainer, WwaContainer, CarouselContainer } from "./styles";
 import composition1 from "../../../assets/composition1.jpg";
 import meeting from "../../../assets/meeting1.jpeg"
-import axios from "axios";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination } from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+
 
 
 export const WelcomeContainer = () => {
@@ -136,73 +140,22 @@ export const WhoWeAreContainer = () => {
     )
 }
 
-export const ContactUsContainer = () => {
-    const [formData, setFormData] = useState({
-        name: '',
-        email: '',
-        subject: '',
-        message: ''
-    });
-
-    const handleChange = (e) => {
-        const { name, value } = e.target;
-        setFormData({
-            ...formData,
-            [name]: value
-        });
-    };
-
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        axios.post('http://localhost:5000/send', formData)
-            .then(response => {
-                console.log('Email sent successfully');
-            })
-            .catch(error => {
-                console.error('There was an error sending the email!', error);
-            });
-    };
-
-    return (
-        <ContactContainer>
-            <ContactText>
-                <h1>Envie-nos uma</h1> 
-                <p>mensagem</p> 
-            </ContactText>
-            <Subtitle>
-                Tem alguma dúvida ou sugestão? Escreva abaixo, assim que possível retornaremos!
-            </Subtitle>
-            <Forms onSubmit={handleSubmit}>
-                <InputForm 
-                    type="text" 
-                    name="name" 
-                    placeholder="Nome" 
-                    value={formData.name} 
-                    onChange={handleChange} 
-                />
-                <InputForm 
-                    type="email" 
-                    name="email" 
-                    placeholder="Email" 
-                    value={formData.email} 
-                    onChange={handleChange} 
-                />
-                <InputForm 
-                    type="text" 
-                    name="subject" 
-                    placeholder="Assunto" 
-                    value={formData.subject} 
-                    onChange={handleChange} 
-                />
-                <InputMessage 
-                    type="text" 
-                    name="message" 
-                    placeholder="Escreva sua mensagem" 
-                    value={formData.message} 
-                    onChange={handleChange} 
-                />
-                <ButtonForm type="submit">ENVIAR</ButtonForm>
-            </Forms>
-        </ContactContainer>
+export const Carousel = ({ images }) => {
+    return(
+      <CarouselContainer>
+        <Swiper
+          modules={[Navigation, Pagination]}
+          spaceBetween={50}
+          slidesPerView={1}
+          navigation
+          pagination={{ clickable: true }}
+        >
+          {images.map((image, index) => (
+            <SwiperSlide key={index}>
+              <img src={image} alt={`Slide ${index}`} />
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </CarouselContainer>
     );
-};
+  }
